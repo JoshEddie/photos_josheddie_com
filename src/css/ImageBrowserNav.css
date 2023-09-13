@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    top: 7px;
+    left: 9px;
+    right: 9px;
+    background-color: #1d74d5; /*Fallback Support*/
+    background-color: var(--mainColorRGBA-Opacity95);
+    z-index: 50;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+}
+ 
+.logo {
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.imageSort {
+    position: fixed;
+    top: 67px;
+    z-index: 31;
+    left: 9px;
+    right: 9px;
+    line-height: 0;
+    background-color: #1d74d5; /*Fallback Support*/
+    background-color: var(--mainColorRGBA-Opacity95);
+    padding: 0 22px 10px 22px;
+    border-radius: 0 0 20px 20px;
+    white-space: nowrap;
+}
+
+.photoNav {
+    border: none;
+    background-color: transparent;
+    color: #7fa7d4; /*Fallback Variable Support*/
+    color: var(--lightAccentHex);
+    padding: 0 8px 5px 8px;
+    font-size: 17px;
+    line-height: 17px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.photoNav.Selected,
+.photoNav:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
