@@ -1,0 +1,23 @@
+.photoContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #ffffff; /*Fallback Support*/
+    background-color: var(--lightdarkBG);
+}
+
+.photoDisplay {
+    position: relative;
+    top: 105px;
+    left: 0;
+    right: 0;
+    padding: 0 10px 40px 10px;
+    line-height: 0;
+    text-align: left;
+}
+
+@media screen and (min-width: 600px) {.photoDisplay {padding: 0 20px 40px 20px;}}
+@media screen and (min-width: 1000px) {.photoDisplay {padding: 0 30px 40px 30px;}}
+@media screen and (min-width: 1500px) {.photoDisplay {padding: 0 40px 40px 40px;}}
