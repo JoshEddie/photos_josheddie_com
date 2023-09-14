@@ -4,7 +4,7 @@ import {imageList} from './imageList';
 import Image from './Image'
 import ImageBrowserNav from './ImageBrowserNav'
 import Sort from './Sort';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 function App() {
 
@@ -21,29 +21,45 @@ function App() {
 
   }
   
-  function showNextImage(i) {
+  function showNextImage(index) {
 
-    toggleOverlay(i, true);
-    do {
-      i++;
-      if (i === imageList.length) {
-        i = 0;
-      }
-    } while(showThumbnail[i] === false);
-    toggleOverlay(i, false);
+    toggleOverlay(index, true);
+
+    var photo = ref.current.children[0];
+
+    while (photo.children[0].id != index) {
+      photo = photo.nextSibling;
+    }
+
+    var photoId;
+    if(photo.nextSibling.nextSibling === null) {
+      photoId = ref.current.children[0].children[0].id
+    }
+    else {
+      photoId = photo.nextSibling.nextSibling.children[0].id
+    }
+    toggleOverlay(photoId, false);
 
   }
 
-  function showPrevImage(i) {
+  function showPrevImage(index) {
 
-    toggleOverlay(i, true);
-    do {
-      i--;
-      if (i === -1) {
-        i = imageList.length - 1;
-      }
-    } while(showThumbnail[i] === false);
-    toggleOverlay(i, false);
+    toggleOverlay(index, true);
+
+    var photo = ref.current.lastChild;
+
+    while (photo.children[0].id != index || photo.className === 'imageOverlay') {
+      photo = photo.previousSibling;
+    }
+
+    var photoId;
+    if(photo.previousSibling === null) {
+      photoId = ref.current.lastChild.children[0].id
+    }
+    else {
+      photoId = photo.previousSibling.children[0].id
+    }
+    toggleOverlay(photoId, false);
 
   }
 
@@ -68,6 +84,7 @@ function App() {
   }, [window.location]);
   
 
+  const ref = useRef();
   const [imageSort, setImageSort] = useState('index')
   const imageComponents = []
   for(var i = 0; i < imageList.length; i++) {
@@ -75,6 +92,7 @@ function App() {
       <Image
         key = {i}
         index = {i}
+        innerRef={ref}
         url = {imageList[i][0]}
         largeURL={imageList[i][1]}
         title={imageList[i][2]}
@@ -98,7 +116,7 @@ function App() {
         thumbnailCategory = {thumbnailCategory}
     />
     <section className='photoContainer'>
-        <section className='photoDisplay'>
+        <section className='photoDisplay' ref={ref}>
             <Sort sortBy={imageSort}>
               {imageComponents}
             </Sort>

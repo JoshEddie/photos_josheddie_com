@@ -1,11 +1,11 @@
 
 import '../css/image.css';
 
-export default function ImageOverlay({index, largeURL, title, info, showNextImage, showPrevImage, toggleOverlay}) {
+export default function ImageOverlay({index, largeURL, title, info, showNextImage, showPrevImage, toggleOverlay, overlayRef}) {
 
     return (
         <>
-        <div className="imageOverlay">
+        <div className="imageOverlay" ref={overlayRef}>
             <div 
                 className='bgImage'
                 style={{
@@ -28,7 +28,6 @@ export default function ImageOverlay({index, largeURL, title, info, showNextImag
                 <img
                     src = {largeURL}
                     alt = {title}
-                    onClick={() => showNextImage(index)}
                 />
             </div>
             <div className='infoContainer'>
