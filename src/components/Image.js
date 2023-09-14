@@ -2,7 +2,7 @@ import Thumbnail from "./Thumbnail";
 import ImageOverlay from "./ImageOverlay";
 import { useState } from "react";
 
-export default function Image({index, url, largeURL, title, info, keywords, showThumbnail, showOverlay, toggleOverlay, showNextImage, showPrevImage}) {
+export default function Image({index, url, largeURL, title, info, showThumbnail, showOverlay, toggleOverlay, showNextImage, showPrevImage}) {
 
     return (
         <>
