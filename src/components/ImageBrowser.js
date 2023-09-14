@@ -1,10 +1,12 @@
+import React, { useState, useEffect, useRef } from 'react';
+
 import '../css/ImageBrowser.css';
 
 import {imageList} from './imageList';
 import Image from './Image'
 import ImageBrowserNav from './ImageBrowserNav'
 import Sort from './Sort';
-import React, { useState, useEffect, useRef } from 'react';
+import Copyright from './Copyright';
 
 function App() {
 
@@ -122,6 +124,7 @@ function App() {
             </Sort>
         </section>
     </section>
+    <Copyright />
     <button 
       style={{position: 'fixed', bottom: 10, left: 10, zIndex: 10000}}
       onClick={() => sortImages('url')}>sort by url</button> 

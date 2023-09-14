@@ -48,3 +48,21 @@
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
 }
+
+@media screen and (min-width: 500px) {
+
+    .imageSort {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }	
+
+    .imageSort a.Selected {
+        display: inline-block;
+    }
+
+    .header {
+        border-radius: 20px;
+    }
+
+}
