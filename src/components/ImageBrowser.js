@@ -2,21 +2,23 @@ import React, { useState, useEffect, useRef } from 'react';
 
 import '../css/ImageBrowser.css';
 
-import {imageList} from './imageList';
 import Image from './Image'
-import ImageBrowserNav from './ImageBrowserNav'
 import Sort from './Sort';
-import Copyright from './Copyright';
+import { useOutletContext } from 'react-router-dom';
 
-function App() {
+function ImageBrowser({type, imageList}) {
 
   const [showThumbnail, setShowThumbnail] = useState(Array(imageList.length).fill(true));
-  const [showOverlay, setShowOverlay] = useState(Array(imageList.length).fill(false))
+  const [showOverlay, setShowOverlay] = useState(Array(imageList.length).fill(false));
+  const [currentOverlay, setCurrentOverlay] = useState(null);
+  const photoDisplayRef = useRef();
+  const imageSort = useOutletContext();
 
   var newOverlay = [];
 
   function toggleOverlay(i, newArray) {
 
+    showOverlay[i] ? setCurrentOverlay(null) : setCurrentOverlay(i);
     newOverlay = newArray ? showOverlay.slice() : newOverlay;
     newOverlay[i] = showOverlay[i] ? false : true;
     setShowOverlay(newOverlay);
@@ -27,7 +29,7 @@ function App() {
 
     toggleOverlay(index, true);
 
-    var photo = ref.current.children[0];
+    var photo = photoDisplayRef.current.children[0];
 
     while (photo.children[0].id != index) {
       photo = photo.nextSibling;
@@ -35,7 +37,7 @@ function App() {
 
     var photoId;
     if(photo.nextSibling.nextSibling === null) {
-      photoId = ref.current.children[0].children[0].id
+      photoId = photoDisplayRef.current.children[0].children[0].id
     }
     else {
       photoId = photo.nextSibling.nextSibling.children[0].id
@@ -48,7 +50,7 @@ function App() {
 
     toggleOverlay(index, true);
 
-    var photo = ref.current.lastChild;
+    var photo = photoDisplayRef.current.lastChild;
 
     while (photo.children[0].id != index || photo.className === 'imageOverlay') {
       photo = photo.previousSibling;
@@ -56,13 +58,52 @@ function App() {
 
     var photoId;
     if(photo.previousSibling === null) {
-      photoId = ref.current.lastChild.children[0].id
+      photoId = photoDisplayRef.current.lastChild.children[0].id
     }
     else {
       photoId = photo.previousSibling.children[0].id
     }
     toggleOverlay(photoId, false);
 
+  }
+
+  document.onkeydown = checkKey;
+
+    function checkKey(event) {
+
+    if(currentOverlay === null) {
+      return;
+    }
+
+    if (event.key == 'ArrowLeft') {
+      showPrevImage(currentOverlay);
+    }
+    else if (event.key == 'ArrowRight') {
+      showNextImage(currentOverlay);
+    }
+    else if (event.key == 'Escape') {
+      toggleOverlay(currentOverlay);
+    }
+
+  }
+  
+  const imageComponents = []
+  for(var i = 0; i < imageList.length; i++) {
+    imageComponents.push(
+      <Image
+        key = {i}
+        index = {i}
+        url = {imageList[i][0]}
+        largeURL={imageList[i][1]}
+        title={imageList[i][2]}
+        info={imageList[i][3]}
+        showThumbnail = {showThumbnail}
+        showOverlay = {showOverlay}
+        toggleOverlay = {toggleOverlay}
+        showNextImage = {showNextImage}
+        showPrevImage = {showPrevImage}
+      />
+    )
   }
 
   function thumbnailCategory(category) {
@@ -78,60 +119,20 @@ function App() {
   }
 
   useEffect(() => {
-    var imageSortType = 'Featured';
-    if(window.location.hash != "") {
-        imageSortType = window.location.hash.substring(1);
-    }
-    thumbnailCategory(imageSortType);
-  }, [window.location]);
-  
-
-  const ref = useRef();
-  const [imageSort, setImageSort] = useState('index')
-  const imageComponents = []
-  for(var i = 0; i < imageList.length; i++) {
-    imageComponents.push(
-      <Image
-        key = {i}
-        index = {i}
-        innerRef={ref}
-        url = {imageList[i][0]}
-        largeURL={imageList[i][1]}
-        title={imageList[i][2]}
-        info={imageList[i][3]}
-        showThumbnail = {showThumbnail}
-        showOverlay = {showOverlay}
-        toggleOverlay = {toggleOverlay}
-        showNextImage = {showNextImage}
-        showPrevImage = {showPrevImage}
-      />
-    )
-  }
-
-  function sortImages(sortBy) {
-    setImageSort(sortBy);
-  }
+    thumbnailCategory(type);
+  }, [type]);
 
   return (
     <>
-    <ImageBrowserNav 
-        thumbnailCategory = {thumbnailCategory}
-    />
     <section className='photoContainer'>
-        <section className='photoDisplay' ref={ref}>
+        <section className='photoDisplay' ref={photoDisplayRef}>
             <Sort sortBy={imageSort}>
               {imageComponents}
             </Sort>
         </section>
     </section>
-    <Copyright />
-    <button 
-      style={{position: 'fixed', bottom: 10, left: 10, zIndex: 10000}}
-      onClick={() => sortImages('url')}>sort by url</button> 
-    <button style={{position: 'fixed', bottom: 10, left: 100, zIndex: 10000}}
-      onClick={() => sortImages('index')}>sort by key</button> 
     </>
   );
 }
 
-export default App;
+export default ImageBrowser;

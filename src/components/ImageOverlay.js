@@ -1,7 +1,7 @@
 
 import '../css/image.css';
 
-export default function ImageOverlay({index, largeURL, title, info, showNextImage, showPrevImage, toggleOverlay, overlayRef}) {
+export default function ImageOverlay({index, largeURL, title, info, showNextImage, showPrevImage, toggleOverlay, overlayRef, showOverlay}) {
 
     return (
         <>

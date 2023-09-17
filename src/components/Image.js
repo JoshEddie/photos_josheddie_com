@@ -20,6 +20,7 @@ export default function Image({index, url, largeURL, title, info, showThumbnail,
             showNextImage = {showNextImage}
             showPrevImage = {showPrevImage}
             toggleOverlay = {toggleOverlay}
+            showOverlay = {showOverlay[index]}
         />)}
         </>
     )

@@ -10,7 +10,7 @@
     padding: 10px;
 }
  
-.logo {
+.header .logo {
     height: 40px;
     vertical-align: middle;
     display: inline-block;
@@ -43,11 +43,49 @@
     display: inline-block;
 }
 
-.photoNav.Selected,
-.photoNav:hover {
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff;
+.moreSort {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto
 }
+
+.moreSort .photoNav {
+    display: block;
+    padding: 9px 8px 6px 8px;
+}
+
+.moreSort .photoNav:hover {
+    border-bottom: none;
+}
+
+.featuredHeader {
+    color: #ffffff;
+    padding-bottom: 0;
+    padding-top: 15px;
+    cursor: default;
+}
+
+.imageSort .nav4, .imageSort .nav5, .imageSort .nav6, .imageSort .nav7, .imageSort .nav8, 
+.imageSort .nav9, .imageSort .nav10, .imageSort .nav11, .imageSort .nav12, .imageSort .nav13, 
+.imageSort .nav14, .imageSort .nav15, .imageSort .nav16, .imageSort .navAll,
+.moreSort .nav1, .moreSort .nav2, .moreSort .nav3, 
+.imageSort .navFeatured, .imageSort .featuredHeader {
+    display: none;
+}
+
+.moreSort .nav4, .moreSort .nav5, .moreSort .nav6, .moreSort .nav7, .moreSort .nav8, 
+.moreSort .nav9, .moreSort .nav10, .moreSort .nav11, .moreSort .nav12, 
+.moreSort .nav13, .moreSort .nav14, .moreSort .nav15, .moreSort .nav16, .moreSort .navAll,
+.moreSort .navFeatured, .moreSort .featuredHeader {
+    display: block;
+}
+
+@media screen and (min-width: 600px) {.imageSort .nav4 {display: inline-block} .moreSort .nav4 {display: none;}}	
+@media screen and (min-width: 700px) {.imageSort .nav5 {display: inline-block} .moreSort .nav5 {display: none;}}	
+@media screen and (min-width: 800px) {.imageSort .nav6 {display: inline-block} .moreSort .nav6 {display: none;}}
+@media screen and (min-width: 900px) {.imageSort .nav7 {display: inline-block} .moreSort .nav7 {display: none;}}
+@media screen and (min-width: 1000px) {.imageSort .nav8 {display: inline-block} .moreSort .nav8 {display: none;}}
+@media screen and (min-width: 1000px) {.imageSort .nav9 {display: inline-block} .moreSort .nav9 {display: none;}}
 
 @media screen and (min-width: 500px) {
 
@@ -65,4 +103,46 @@
         border-radius: 20px;
     }
 
+}
+
+.photoNav.active,
+.photoNav:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;
+}
+
+.moreSort .photoNav.active {
+    display: none
+}
+
+.moreSort .photoNav.featuredSet {
+    display: block;
+    border-bottom: none;
+}
+
+.sortMenu {
+    position: fixed;
+    top: 20px;
+    left: 25px;
+    z-index: 1000;
+    border: none;
+    background-color: #7fa7d4; /*Fallback Variable Support*/
+    background-color: var(--lightAccentHex);
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;;
+    cursor: pointer;
+}
+
+.sortButton {
+    width: 100px;
+    text-align: left;
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
 }
