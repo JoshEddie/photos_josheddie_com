@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 export default function Navigation({hideShowMore}) {
     return (
         <>
-            <a 
+            {/* <a 
                 href="https://josheddiephotography.pixieset.com/shop/" 
                 className="photoNav nav4" 
                 target="_Blank"
                 onClick={hideShowMore}>
                     Shop
-            </a>
+            </a> */}
             <NavLink 
                 className='photoNav nav1' to="featured"
                 onClick={hideShowMore}>
