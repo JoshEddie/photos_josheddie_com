@@ -10,7 +10,7 @@
 
 .photoDisplay {
     position: relative;
-    top: 105px;
+    top: 115px;
     left: 0;
     right: 0;
     padding: 0 10px 40px 10px;
@@ -44,13 +44,13 @@
 
 }
 
-/* @media screen and (min-width: 1700px) {
+@media screen and (min-width: 1700px) {
 
     .photoDisplay {
         top: 77px
     }
 
-} */
+}
 
 @media screen and (min-width: 600px) {.photoDisplay {padding: 0 20px 40px 20px;}}
 @media screen and (min-width: 1000px) {.photoDisplay {padding: 0 30px 40px 30px;}}
