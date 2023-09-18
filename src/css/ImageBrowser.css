@@ -10,12 +10,46 @@
 
 .photoDisplay {
     position: relative;
-    top: 105px;
+    top: 115px;
     left: 0;
     right: 0;
     padding: 0 10px 40px 10px;
     line-height: 0;
     text-align: left;
+}
+
+.copyright {
+    position: fixed;
+    background-color: #1d74d5; /*Fallback Support*/
+    background-color: var(--mainColorRGBA-Opacity95);
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    min-width: 190px;
+    font-size: 13px;
+    line-height: 14px;
+	font-weight: 100;
+    padding: 5px 10px
+}
+
+@media screen and (min-width: 900px) {
+
+    .copyright {
+        left: auto;
+        right: 9px;
+        bottom: 7px;
+        transform: none;
+    }
+
+}
+
+@media screen and (min-width: 1700px) {
+
+    .photoDisplay {
+        top: 77px
+    }
+
 }
 
 @media screen and (min-width: 600px) {.photoDisplay {padding: 0 20px 40px 20px;}}

@@ -3,14 +3,15 @@
     top: 7px;
     left: 9px;
     right: 9px;
+    height: 80px;
     background-color: #1d74d5; /*Fallback Support*/
     background-color: var(--mainColorRGBA-Opacity95);
     z-index: 50;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px;
     padding: 10px;
 }
  
-.logo {
+.header .logo {
     height: 40px;
     vertical-align: middle;
     display: inline-block;
@@ -20,15 +21,21 @@
 .imageSort {
     position: fixed;
     top: 67px;
-    z-index: 31;
+    z-index: 1002;
     left: 9px;
     right: 9px;
     line-height: 0;
-    background-color: #1d74d5; /*Fallback Support*/
-    background-color: var(--mainColorRGBA-Opacity95);
     padding: 0 22px 10px 22px;
     border-radius: 0 0 20px 20px;
     white-space: nowrap;
+}
+
+.sortMenu {
+    position: fixed;
+    right: 24px;
+    top: 27px;
+    z-index: 1000;
+    display: none;
 }
 
 .photoNav {
@@ -43,8 +50,118 @@
     display: inline-block;
 }
 
-.photoNav.Selected,
+.sortButton {
+    font-size: 13px;
+    padding: 0 6px;
+}
+
+.moreSort {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.moreSort .photoNav {
+    display: block;
+    padding: 9px 8px 6px 8px;
+}
+
+.featuredHeader {
+    color: #ffffff;
+    padding-bottom: 0;
+    padding-top: 15px;
+    cursor: default;
+}
+
+.imageSort .nav4, .imageSort .nav5, .imageSort .nav6, .imageSort .nav7, .imageSort .nav8, 
+.imageSort .nav9, .imageSort .nav10, .imageSort .nav11, .imageSort .nav12, .imageSort .nav13, 
+.imageSort .nav14, .imageSort .nav15, .imageSort .nav16, .imageSort .navAll,
+.moreSort .nav1, .moreSort .nav2, .moreSort .nav3, 
+.imageSort .navFeatured, .imageSort .featuredHeader {
+    display: none;
+}
+
+.moreSort .nav4, .moreSort .nav5, .moreSort .nav6, .moreSort .nav7, .moreSort .nav8, 
+.moreSort .nav9, .moreSort .nav10, .moreSort .nav11, .moreSort .nav12, 
+.moreSort .nav13, .moreSort .nav14, .moreSort .nav15, .moreSort .nav16, .moreSort .navAll,
+.moreSort .navFeatured, .moreSort .featuredHeader {
+    display: block;
+}
+
+@media screen and (min-width: 900px) {.imageSort .nav4 {display: inline-block} .moreSort .nav4 {display: none;}}	
+@media screen and (min-width: 1000px) {.imageSort .nav5 {display: inline-block} .moreSort .nav5 {display: none;}}	
+@media screen and (min-width: 1100px) {.imageSort .nav6 {display: inline-block} .moreSort .nav6 {display: none;}}
+@media screen and (min-width: 1200px) {.imageSort .nav7 {display: inline-block} .moreSort .nav7 {display: none;}}
+@media screen and (min-width: 1250px) {.imageSort .nav8 {display: inline-block} .moreSort .nav8 {display: none;}}
+@media screen and (min-width: 1250px) {.imageSort .nav9 {display: inline-block} .moreSort .nav9 {display: none;}}
+
+@media screen and (min-width: 400px) {
+
+    .imageSort a.active {
+        display: inline-block;
+    }
+
+    .moreSort .photoNav.active {
+        display: none
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+    .imageSort {
+        top: 73px;
+        right: auto;
+        background-color: transparent;
+    }
+
+    .sortMenu {
+        right: 24px;
+        top: 73px;
+        z-index: 1000;
+        display: block;
+    }
+
+    .header {
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1350px) {
+    .sortButton {
+    font-size: 15px;
+    padding: 0 8px;
+}
+}
+
+@media screen and (min-width: 1700px) {
+
+    .header {
+        height: auto;
+    }
+
+    .imageSort,
+    .sortMenu {
+        top: 28px;
+    }
+
+}
+
+.photoNav.active,
 .photoNav:hover {
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
+}
+
+.moreSort .photoNav.featuredSet {
+    display: block;
+    border-bottom: none;
+}
+
+.sortButton:hover,
+.sortButton.active,
+.moreSort .photoNav:hover,
+.moreSort .photoNav.active {
+    border-bottom: none;
 }

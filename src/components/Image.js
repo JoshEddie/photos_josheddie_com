@@ -1,15 +1,16 @@
 import Thumbnail from "./Thumbnail";
 import ImageOverlay from "./ImageOverlay";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
-export default function Image({index, url, largeURL, title, info, keywords, showThumbnail, showOverlay, toggleOverlay, showNextImage, showPrevImage}) {
+export default function Image({index, url, largeURL, title, info, date, showThumbnail, showOverlay, toggleOverlay, showNextImage, showPrevImage}) {
 
     return (
         <>
         {showThumbnail[index] && (<Thumbnail 
             index = {index}
             url = {url}
-            title={title}
+            title = {title}
+            date = {date}
             toggleOverlay = {toggleOverlay}
         />)}
         {showOverlay[index] && (<ImageOverlay
@@ -20,6 +21,7 @@ export default function Image({index, url, largeURL, title, info, keywords, show
             showNextImage = {showNextImage}
             showPrevImage = {showPrevImage}
             toggleOverlay = {toggleOverlay}
+            showOverlay = {showOverlay[index]}
         />)}
         </>
     )

@@ -1,11 +1,11 @@
 
 import '../css/image.css';
 
-export default function ImageOverlay({index, largeURL, title, info, showNextImage, showPrevImage, toggleOverlay}) {
+export default function ImageOverlay({index, largeURL, title, info, showNextImage, showPrevImage, toggleOverlay, overlayRef, showOverlay}) {
 
     return (
         <>
-        <div className="imageOverlay">
+        <div className="imageOverlay" ref={overlayRef}>
             <div 
                 className='bgImage'
                 style={{
@@ -28,7 +28,6 @@ export default function ImageOverlay({index, largeURL, title, info, showNextImag
                 <img
                     src = {largeURL}
                     alt = {title}
-                    onClick={() => showNextImage(index)}
                 />
             </div>
             <div className='infoContainer'>
@@ -38,23 +37,5 @@ export default function ImageOverlay({index, largeURL, title, info, showNextImag
         </div>
         </>
     )
-
-    // <div class="ImageOverlay open" id="photograph-1-large">
-    //     <div class="overlayBackgroundImage" id="overlayBackgroundImage-1" style="background-image: url(&quot;../images/photos/Large/Photo-0120.jpg?v=2&quot;);"></div>
-    //     <div class="ImageContainer Ver">
-    //         <a class="closeImage Ver" title="Close Photo" style="cursor: pointer;">×</a>
-    //         <aside id="back-0" class="backDIV" title="Previous Photo">
-    //             <a class="backnext Ver">‹</a>
-    //         </aside>
-    //         <aside id="next-2" class="nextDIV" title="Next Photo">
-    //             <a class="backnext Ver">›</a>
-    //         </aside>
-    //         <img class="ImageLarge" id="largeImg-1" src="images/photos/Large/Photo-0120.jpg?v=2">
-    //     </div>
-    //     <div class="ImageInfo">
-    //         <h1>Silhouette Tree Sunset</h1>
-    //         <h2>Houston, TX | January, 2022</h2>
-    //     </div>
-    // </div>
 
 }
