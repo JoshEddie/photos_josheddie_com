@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/photos" element={<Photos />}>
+          <Route path="All" element={<ImageBrowser type="All" imageList = {defaultList}/>} />
           <Route path="Featured" index element={<ImageBrowser type="Featured" imageList = {defaultList}/>} />
           <Route path="Nature" element={<ImageBrowser type="Nature" imageList={defaultList}/>} />
           <Route path="Landscape" element={<ImageBrowser type="Landscape" imageList={defaultList}/>} />

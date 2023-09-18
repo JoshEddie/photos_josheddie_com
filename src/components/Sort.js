@@ -21,6 +21,8 @@ export default function Sort({children, sortBy, direction}) {
         }
     }
 
+    window.document.body.scrollTop = document.documentElement.scrollTop = 0;
+
     return React.Children.toArray(children).sort(compare);
 
 }

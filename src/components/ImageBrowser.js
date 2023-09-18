@@ -109,12 +109,19 @@ function ImageBrowser({type, imageList}) {
 
   function thumbnailCategory(category) {
 
+    window.document.body.scrollTop = document.documentElement.scrollTop = 0;
+
     var newThumbnail = Array(imageList.length).fill(false);
+
     for(let i = 0; i < imageList.length; i++) {
-      if(imageList[i][4].toLowerCase().includes(category.toLowerCase())) {
+      if(category == 'All') {
+        newThumbnail[i] = true;
+      }
+      else if(imageList[i][4].toLowerCase().includes(category.toLowerCase())) {
         newThumbnail[i] = true;
       };
     }
+
     setShowThumbnail(newThumbnail);
 
   }
