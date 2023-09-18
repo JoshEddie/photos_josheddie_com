@@ -3,11 +3,10 @@
     top: 7px;
     left: 9px;
     right: 9px;
-    height: 80px;
     background-color: #1d74d5; /*Fallback Support*/
     background-color: var(--mainColorRGBA-Opacity95);
     z-index: 50;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     padding: 10px;
 }
  
@@ -27,15 +26,51 @@
     line-height: 0;
     padding: 0 22px 10px 22px;
     border-radius: 0 0 20px 20px;
+    background-color: #1d74d5; /*Fallback Support*/
+    background-color: var(--mainColorRGBA-Opacity95);
     white-space: nowrap;
+    /* overflow: scroll; */
+}
+
+.filterButton {
+    position: fixed;
+    right: 25px;
+    top: 20px;
+    font-size: 17px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7fa7d4; /*Fallback Variable Support*/
+    background-color: var(--lightAccentHex);
+    z-index: 1000;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.filterButton:hover,
+.filterButton.active {
+    background-color: #ffffff;
+    color: #1d74d5; /*Fallback Support*/
+    color: var(--mainColorHex);
 }
 
 .sortMenu {
     position: fixed;
-    right: 24px;
-    top: 27px;
     z-index: 1000;
+    padding: 15px 15px 0 15px;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    max-width: 90%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    background-color: #1d74d5; /*Fallback Support*/
+    background-color: var(--mainColorRGBA-Opacity95);
     display: none;
+}
+
+.sortMenu.show {
+    display: block;
 }
 
 .photoNav {
@@ -51,8 +86,10 @@
 }
 
 .sortButton {
-    font-size: 13px;
-    padding: 0 6px;
+    font-size: 17px;
+    padding: 0 8px 15px 8px;
+    display: block;
+    margin: 0 auto;
 }
 
 .moreSort {
@@ -88,14 +125,14 @@
     display: block;
 }
 
-@media screen and (min-width: 900px) {.imageSort .nav4 {display: inline-block} .moreSort .nav4 {display: none;}}	
-@media screen and (min-width: 1000px) {.imageSort .nav5 {display: inline-block} .moreSort .nav5 {display: none;}}	
-@media screen and (min-width: 1100px) {.imageSort .nav6 {display: inline-block} .moreSort .nav6 {display: none;}}
-@media screen and (min-width: 1200px) {.imageSort .nav7 {display: inline-block} .moreSort .nav7 {display: none;}}
-@media screen and (min-width: 1250px) {.imageSort .nav8 {display: inline-block} .moreSort .nav8 {display: none;}}
-@media screen and (min-width: 1250px) {.imageSort .nav9 {display: inline-block} .moreSort .nav9 {display: none;}}
+@media screen and (min-width: 400px) {.imageSort .nav4 {display: inline-block} .moreSort .nav4 {display: none;}}	
+@media screen and (min-width: 525px) {.imageSort .nav5 {display: inline-block} .moreSort .nav5 {display: none;}}	
+@media screen and (min-width: 600px) {.imageSort .nav6 {display: inline-block} .moreSort .nav6 {display: none;}}
+@media screen and (min-width: 700px) {.imageSort .nav7 {display: inline-block} .moreSort .nav7 {display: none;}}
+@media screen and (min-width: 800px) {.imageSort .nav8 {display: inline-block} .moreSort .nav8 {display: none;}}
+@media screen and (min-width: 800px) {.imageSort .nav9 {display: inline-block} .moreSort .nav9 {display: none;}}
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 405px) {
 
     .imageSort a.active {
         display: inline-block;
@@ -110,16 +147,10 @@
 @media screen and (min-width: 900px) {
 
     .imageSort {
-        top: 73px;
+        top: 67px;
+        left: 50%;
+        transform: translateX(-50%);
         right: auto;
-        background-color: transparent;
-    }
-
-    .sortMenu {
-        right: 24px;
-        top: 73px;
-        z-index: 1000;
-        display: block;
     }
 
     .header {
@@ -128,11 +159,27 @@
 
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1400px) {
+
+    .filterButton {
+        display: none;
+    }
+
+    .sortMenu {
+        top: 15px;
+        right: 9px;
+        left: auto;
+        bottom: auto;
+        transform: none;
+        width: auto;
+        background-color: transparent;
+        display: block;
+    }
+
     .sortButton {
-    font-size: 15px;
-    padding: 0 8px;
-}
+        display: inline-block;
+    }
+    
 }
 
 @media screen and (min-width: 1700px) {
@@ -141,9 +188,11 @@
         height: auto;
     }
 
-    .imageSort,
-    .sortMenu {
+    .imageSort{
         top: 28px;
+        left: 9px;
+        background-color: transparent;
+        transform: none;
     }
 
 }

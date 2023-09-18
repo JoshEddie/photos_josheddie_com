@@ -12,7 +12,8 @@ export default function SortMenu({sortImages}) {
         )} */}
         {/* {!showSort && ( */}
             <>
-            <div className='sortMenu' onClick={() => setShowSort(!showSort)}>
+            <button className={showSort ? "filterButton active" : "filterButton"} onClick={() => setShowSort(!showSort)}>Filter</button>
+            <div className={showSort ? "sortMenu show" : "sortMenu"} onClick={() => setShowSort(!showSort)}>
                 <button
                     className={currentSort[0] == 'Featured' ? "photoNav sortButton active" : "photoNav sortButton"}
                     onClick={() => {
