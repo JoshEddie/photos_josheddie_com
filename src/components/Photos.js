@@ -8,7 +8,7 @@ import Sort from './Sort';
 
 export default function Photos({type}) {
 
-    const [imageSort, setImageSort] = useState('index');
+    const [imageSort, setImageSort] = useState(['index', true]);
 
     function sortImages(sortBy) {
         setImageSort(sortBy);

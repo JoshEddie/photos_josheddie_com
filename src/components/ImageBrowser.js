@@ -97,6 +97,7 @@ function ImageBrowser({type, imageList}) {
         largeURL={imageList[i][1]}
         title={imageList[i][2]}
         info={imageList[i][3]}
+        date={imageList[i][5]}
         showThumbnail = {showThumbnail}
         showOverlay = {showOverlay}
         toggleOverlay = {toggleOverlay}

@@ -2,33 +2,33 @@ export var defaultList = [
     //"Thumbnail [0]","Large [1]", "Title [2]", "Details [3]", "Keywords [4]",],
     
     //Sunset Tree
-    ["../photos/featured/Photo-0120.jpg", "../photos/featured/Photo-0120_large.jpg", "Silhouette Tree Sunset", "Houston, TX | January, 2022", "Featured Fine-Art Nature",],
+    ["../photos/featured/Photo-0120.jpg", "../photos/featured/Photo-0120_large.jpg", "Silhouette Tree Sunset", "Houston, TX | January, 2022", "Featured Fine-Art Nature", '2022-01'],
     
     //San Antonio
-    ["../photos/featured/Photo-0119.jpg", "../photos/featured/Photo-0119_large.jpg", "Light", "San Antonio, TX | January, 2022", "Featured Fine-Art",],
+    ["../photos/featured/Photo-0119.jpg", "../photos/featured/Photo-0119_large.jpg", "Light", "San Antonio, TX | January, 2022", "Featured Fine-Art", '2022-01'],
 
     //Sandy & James
-    ["../photos/featured/Photo-0121.jpg", "../photos/featured/Photo-0121_large.jpg", "James", "Houston, TX | January, 2022", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0122.jpg", "../photos/featured/Photo-0122_large.jpg", "James", "Houston, TX | January, 2022", "Black-&-White",],
-    ["../photos/featured/Photo-0123.jpg", "../photos/featured/Photo-0123_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Portrait FamilyKids",],
-    ["../photos/featured/Photo-0124.jpg", "../photos/featured/Photo-0124_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0125.jpg", "../photos/featured/Photo-0125_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Black-&-White",],
-    ["../photos/featured/Photo-0126.jpg", "../photos/featured/Photo-0126_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Portrait FamilyKids",],
-    ["../photos/featured/Photo-0127.jpg", "../photos/featured/Photo-0127_large.jpg", "James on Swingset", "Houston, TX | January, 2022", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0128.jpg", "../photos/featured/Photo-0128_large.jpg", "James on Swingset", "Houston, TX | January, 2022", "Black-&-White",],
-    ["../photos/featured/Photo-0129.jpg", "../photos/featured/Photo-0129_large.jpg", "James", "Houston, TX | January, 2022", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0130.jpg", "../photos/featured/Photo-0130_large.jpg", "James Running", "Houston, TX | January, 2022", "Featured Portrait FamilyKids",],
+    ["../photos/featured/Photo-0121.jpg", "../photos/featured/Photo-0121_large.jpg", "James", "Houston, TX | January, 2022", "Featured Portrait FamilyKids", '2022-01'],
+    ["../photos/featured/Photo-0122.jpg", "../photos/featured/Photo-0122_large.jpg", "James", "Houston, TX | January, 2022", "Black-&-White", '2022-01'],
+    ["../photos/featured/Photo-0123.jpg", "../photos/featured/Photo-0123_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Portrait FamilyKids", '2022-01'],
+    ["../photos/featured/Photo-0124.jpg", "../photos/featured/Photo-0124_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Featured Portrait FamilyKids", '2022-01'],
+    ["../photos/featured/Photo-0125.jpg", "../photos/featured/Photo-0125_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Black-&-White", '2022-01'],
+    ["../photos/featured/Photo-0126.jpg", "../photos/featured/Photo-0126_large.jpg", "Sandy & James", "Houston, TX | January, 2022", "Portrait FamilyKids", '2022-01'],
+    ["../photos/featured/Photo-0127.jpg", "../photos/featured/Photo-0127_large.jpg", "James on Swingset", "Houston, TX | January, 2022", "Featured Portrait FamilyKids", '2022-01'],
+    ["../photos/featured/Photo-0128.jpg", "../photos/featured/Photo-0128_large.jpg", "James on Swingset", "Houston, TX | January, 2022", "Black-&-White", '2022-01'],
+    ["../photos/featured/Photo-0129.jpg", "../photos/featured/Photo-0129_large.jpg", "James", "Houston, TX | January, 2022", "Featured Portrait FamilyKids", '2022-01'],
+    ["../photos/featured/Photo-0130.jpg", "../photos/featured/Photo-0130_large.jpg", "James Running", "Houston, TX | January, 2022", "Featured Portrait FamilyKids", '2022-01'],
 
 
     //Adkison Family Photos
-    ["../photos/featured/Photo-0131.jpg", "../photos/featured/Photo-0131_large.jpg", "Adkison Family", "Cypress, TX | November, 2021", "Portrait FamilyKids",],
-    ["../photos/featured/Photo-0132.jpg", "../photos/featured/Photo-0132_large.jpg", "Adkison Family", "Cypress, TX | November, 2021", "Portrait FamilyKids",],
-    ["../photos/featured/Photo-0133.jpg", "../photos/featured/Photo-0133_large.jpg", "Adkison Boys", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0134.jpg", "../photos/featured/Photo-0134_large.jpg", "Grumpy", "Cypress, TX | November, 2021", "Portrait FamilyKids",],
-    ["../photos/featured/Photo-0135.jpg", "../photos/featured/Photo-0135_large.jpg", "Who is she?", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0136.jpg", "../photos/featured/Photo-0136_large.jpg", "Daron & Julie", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0137.jpg", "../photos/featured/Photo-0137_large.jpg", "Cade", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0138.jpg", "../photos/featured/Photo-0138_large.jpg", "Daron & Julie", "Cypress, TX | November, 2021", "Portrait FamilyKids",],
+    ["../photos/featured/Photo-0131.jpg", "../photos/featured/Photo-0131_large.jpg", "Adkison Family", "Cypress, TX | November, 2021", "Portrait FamilyKids", '2021-11'],
+    ["../photos/featured/Photo-0132.jpg", "../photos/featured/Photo-0132_large.jpg", "Adkison Family", "Cypress, TX | November, 2021", "Portrait FamilyKids", '2021-11'],
+    ["../photos/featured/Photo-0133.jpg", "../photos/featured/Photo-0133_large.jpg", "Adkison Boys", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids", '2021-11'],
+    ["../photos/featured/Photo-0134.jpg", "../photos/featured/Photo-0134_large.jpg", "Grumpy", "Cypress, TX | November, 2021", "Portrait FamilyKids", '2021-11'],
+    ["../photos/featured/Photo-0135.jpg", "../photos/featured/Photo-0135_large.jpg", "Who is she?", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids", '2021-11'],
+    ["../photos/featured/Photo-0136.jpg", "../photos/featured/Photo-0136_large.jpg", "Daron & Julie", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids", '2021-11'],
+    ["../photos/featured/Photo-0137.jpg", "../photos/featured/Photo-0137_large.jpg", "Cade", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids", '2021-11'],
+    ["../photos/featured/Photo-0138.jpg", "../photos/featured/Photo-0138_large.jpg", "Daron & Julie", "Cypress, TX | November, 2021", "Portrait FamilyKids", '2021-11'],
 
     //Fairfield
 
@@ -37,184 +37,184 @@ export var defaultList = [
 
 
     //Stagecoach, TX/Kled Nature Park 0821
-    ["../photos/featured/Photo-0116.jpg", "../photos/featured/Photo-0116_large.jpg", "Single Cloud", "Stagecoach, TX | August, 2021", "Fine-Art Nature",],
-    ["../photos/featured/Photo-0115.jpg", "../photos/featured/Photo-0115_large.jpg", "Plane", "Stagecoach, TX | August, 2021", "Fine-Art Black-&-White",],
-    ["../photos/featured/Photo-0117.jpg", "../photos/featured/Photo-0117_large.jpg", "Pinecone", "Kled Nature Center | August, 2021", "Fine-Art Black-&-White Nature",],
-    ["../photos/featured/Photo-0118.jpg", "../photos/featured/Photo-0118_large.jpg", "Yellow Flower on lake", "Stagecoach, TX | August, 2021", "Fine-Art Nature Flower",],
+    ["../photos/featured/Photo-0116.jpg", "../photos/featured/Photo-0116_large.jpg", "Single Cloud", "Stagecoach, TX | August, 2021", "Fine-Art Nature", '2021-08'],
+    ["../photos/featured/Photo-0115.jpg", "../photos/featured/Photo-0115_large.jpg", "Plane", "Stagecoach, TX | August, 2021", "Fine-Art Black-&-White", '2021-08'],
+    ["../photos/featured/Photo-0117.jpg", "../photos/featured/Photo-0117_large.jpg", "Pinecone", "Kled Nature Center | August, 2021", "Fine-Art Black-&-White Nature", '2021-08'],
+    ["../photos/featured/Photo-0118.jpg", "../photos/featured/Photo-0118_large.jpg", "Yellow Flower on lake", "Stagecoach, TX | August, 2021", "Fine-Art Nature Flower", '2021-08'],
 
-    ["../photos/featured/Photo-0114.jpg", "../photos/featured/Photo-0114_large.jpg", "Red Canoe", "Lake Apache | Stagecoach, TX | August, 2021", "Featured Landscape Nature",],
+    ["../photos/featured/Photo-0114.jpg", "../photos/featured/Photo-0114_large.jpg", "Red Canoe", "Lake Apache | Stagecoach, TX | August, 2021", "Featured Landscape Nature", '2021-08'],
 
     //Hockley 0721
-    ["../photos/featured/Photo-0113.jpg", "../photos/featured/Photo-0113_large.jpg", "Mist on the Horizon", "Hockley, TX | July, 2021", "Featured Landscape Nature",],
-    ["../photos/featured/Photo-0112.jpg", "../photos/featured/Photo-0112_large.jpg", "Red Alert", "Hockley, TX | July, 2021", "Featured Landscape Nature",],
-    ["../photos/featured/Photo-0111.jpg", "../photos/featured/Photo-0111_large.jpg", "Gradient Sunrise", "Hockley, TX | July, 2021", "Featured Landscape Nature",],
-    ["../photos/featured/Photo-0109.jpg", "../photos/featured/Photo-0109_large.jpg", "Field & Tree at Sunrise", "Hockley, TX | July, 2021", "Featured Landscape Nature",],
-    ["../photos/featured/Photo-0108.jpg", "../photos/featured/Photo-0108_large.jpg", "Field", "Hockley, TX | July, 2021", "Featured Landscape Nature",],
+    ["../photos/featured/Photo-0113.jpg", "../photos/featured/Photo-0113_large.jpg", "Mist on the Horizon", "Hockley, TX | July, 2021", "Featured Landscape Nature", '2021-07'],
+    ["../photos/featured/Photo-0112.jpg", "../photos/featured/Photo-0112_large.jpg", "Red Alert", "Hockley, TX | July, 2021", "Featured Landscape Nature", '2021-07'],
+    ["../photos/featured/Photo-0111.jpg", "../photos/featured/Photo-0111_large.jpg", "Gradient Sunrise", "Hockley, TX | July, 2021", "Featured Landscape Nature", '2021-07'],
+    ["../photos/featured/Photo-0109.jpg", "../photos/featured/Photo-0109_large.jpg", "Field & Tree at Sunrise", "Hockley, TX | July, 2021", "Featured Landscape Nature", '2021-07'],
+    ["../photos/featured/Photo-0108.jpg", "../photos/featured/Photo-0108_large.jpg", "Field", "Hockley, TX | July, 2021", "Featured Landscape Nature", '2021-07'],
 
     //Comicpalooza 2021
-    ["../photos/featured/Photo-0102.jpg", "../photos/featured/Photo-0102_large.jpg", "Harley Quinn", "Comicpalooza - Houston, TX | July, 2021", "Featured Portrait Cosplay",],
-    ["../photos/featured/Photo-0104.jpg", "../photos/featured/Photo-0104_large.jpg", "Sonia Nevermind", "Comicpalooza - Houston, TX | July, 2021", "Portrait Cosplay",],
-    ["../photos/featured/Photo-0100.jpg", "../photos/featured/Photo-0100_large.jpg", "Alligator Loki", "Comicpalooza - Houston, TX | July, 2021", "Cosplay",],
-    ["../photos/featured/Photo-0106.jpg", "../photos/featured/Photo-0106_large.jpg", "I am Batman", "Comicpalooza - Houston, TX | July, 2021", "Cosplay",],
-    ["../photos/featured/Photo-0103.jpg", "../photos/featured/Photo-0103_large.jpg", "Link", "Comicpalooza - Houston, TX | July, 2021", "Portrait Cosplay",],
-    ["../photos/featured/Photo-0105.jpg", "../photos/featured/Photo-0105_large.jpg", "Eivor | AC: Vahalla", "Comicpalooza - Houston, TX | July, 2021", "Cosplay",],
-    ["../photos/featured/Photo-0101.jpg", "../photos/featured/Photo-0101_large.jpg", "Dragon Ball Z | Cooler", "Comicpalooza - Houston, TX | July, 2021", "Cosplay",],
+    ["../photos/featured/Photo-0102.jpg", "../photos/featured/Photo-0102_large.jpg", "Harley Quinn", "Comicpalooza - Houston, TX | July, 2021", "Featured Portrait Cosplay", '2021-07'],
+    ["../photos/featured/Photo-0104.jpg", "../photos/featured/Photo-0104_large.jpg", "Sonia Nevermind", "Comicpalooza - Houston, TX | July, 2021", "Portrait Cosplay", '2021-07'],
+    ["../photos/featured/Photo-0100.jpg", "../photos/featured/Photo-0100_large.jpg", "Alligator Loki", "Comicpalooza - Houston, TX | July, 2021", "Cosplay", '2021-07'],
+    ["../photos/featured/Photo-0106.jpg", "../photos/featured/Photo-0106_large.jpg", "I am Batman", "Comicpalooza - Houston, TX | July, 2021", "Cosplay", '2021-07'],
+    ["../photos/featured/Photo-0103.jpg", "../photos/featured/Photo-0103_large.jpg", "Link", "Comicpalooza - Houston, TX | July, 2021", "Portrait Cosplay", '2021-07'],
+    ["../photos/featured/Photo-0105.jpg", "../photos/featured/Photo-0105_large.jpg", "Eivor | AC: Vahalla", "Comicpalooza - Houston, TX | July, 2021", "Cosplay", '2021-07'],
+    ["../photos/featured/Photo-0101.jpg", "../photos/featured/Photo-0101_large.jpg", "Dragon Ball Z | Cooler", "Comicpalooza - Houston, TX | July, 2021", "Cosplay", '2021-07'],
     
     
     //Galveston - 0721
-    ["../photos/featured/Photo-0099.jpg", "../photos/featured/Photo-0099_large.jpg", "Galveston Clouds", "Galveston, TX | July, 2021", "Featured Fine-Art Landscape Nature",],
-    ["../photos/featured/Photo-0098.jpg", "../photos/featured/Photo-0098_large.jpg", "Cody", "Galveston, TX | July, 2021", "Portrait",],
+    ["../photos/featured/Photo-0099.jpg", "../photos/featured/Photo-0099_large.jpg", "Galveston Clouds", "Galveston, TX | July, 2021", "Featured Fine-Art Landscape Nature", '2021-07'],
+    ["../photos/featured/Photo-0098.jpg", "../photos/featured/Photo-0098_large.jpg", "Cody", "Galveston, TX | July, 2021", "Portrait", '2021-07'],
     
     //Idaho - 0621
-    ["../photos/featured/Photo-0090.jpg", "../photos/featured/Photo-0090_large.jpg", "Sawtooth Sunset", "Sawtooth Mountain Range, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0089.jpg", "../photos/featured/Photo-0089_large.jpg", "Sawtooth Mountains", "Stanley, Idaho | June, 2021", "Featured Black-&-White Idaho",],
-    ["../photos/featured/Photo-0088.jpg", "../photos/featured/Photo-0088_large.jpg", "Sawtooth Mountains", "Stanley, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0087.jpg", "../photos/featured/Photo-0087_large.jpg", "Horse Riding", "Stanley, Idaho | June, 2021", "Featured Fine-Art Nature Idaho",],
-    ["../photos/featured/Photo-0086.jpg", "../photos/featured/Photo-0086_large.jpg", "Redfish Lake", "Stanley, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0085.jpg", "../photos/featured/Photo-0085_large.jpg", "Pink Sunset", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0084.jpg", "../photos/featured/Photo-0084_large.jpg", "Road in the Mountains", "Sawtooth Mountain Range, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0083.jpg", "../photos/featured/Photo-0083_large.jpg", "Van in Woods", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Nature Idaho",],
-    ["../photos/featured/Photo-0082.jpg", "../photos/featured/Photo-0082_large.jpg", "Sawtooth Sunset", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0081.jpg", "../photos/featured/Photo-0081_large.jpg", "Sun Behind Mountains", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0080.jpg", "../photos/featured/Photo-0080_large.jpg", "Sunset Bright", "Sawtooth Mountain Range, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0079.jpg", "../photos/featured/Photo-0079_large.jpg", "Make a Wish", "Sun Valley, Idaho | June, 2021", "Fine-Art Flower Nature Idaho",],
-    ["../photos/featured/Photo-0078.jpg", "../photos/featured/Photo-0078_large.jpg", "Yellow Flower", "Sun Valley, Idaho | June, 2021", "Fine-Art Flower Nature Idaho",],
-    ["../photos/featured/Photo-0091.jpg", "../photos/featured/Photo-0091_large.jpg", "Sun Valley", "Sun Valley, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0077.jpg", "../photos/featured/Photo-0077_large.jpg", "Tree in the Sun", "Sun Valley, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho",],
-    ["../photos/featured/Photo-0076.jpg", "../photos/featured/Photo-0076_large.jpg", "Shoshone Falls", "Twin Falls, Idaho | June, 2021", "Black-&-White Idaho",],
-    ["../photos/featured/Photo-0075.jpg", "../photos/featured/Photo-0075_large.jpg", "Shoshone Falls", "Twin Falls, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho",],
+    ["../photos/featured/Photo-0090.jpg", "../photos/featured/Photo-0090_large.jpg", "Sawtooth Sunset", "Sawtooth Mountain Range, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0089.jpg", "../photos/featured/Photo-0089_large.jpg", "Sawtooth Mountains", "Stanley, Idaho | June, 2021", "Featured Black-&-White Idaho", '2021-06'],
+    ["../photos/featured/Photo-0088.jpg", "../photos/featured/Photo-0088_large.jpg", "Sawtooth Mountains", "Stanley, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0087.jpg", "../photos/featured/Photo-0087_large.jpg", "Horse Riding", "Stanley, Idaho | June, 2021", "Featured Fine-Art Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0086.jpg", "../photos/featured/Photo-0086_large.jpg", "Redfish Lake", "Stanley, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0085.jpg", "../photos/featured/Photo-0085_large.jpg", "Pink Sunset", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0084.jpg", "../photos/featured/Photo-0084_large.jpg", "Road in the Mountains", "Sawtooth Mountain Range, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0083.jpg", "../photos/featured/Photo-0083_large.jpg", "Van in Woods", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0082.jpg", "../photos/featured/Photo-0082_large.jpg", "Sawtooth Sunset", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0081.jpg", "../photos/featured/Photo-0081_large.jpg", "Sun Behind Mountains", "Sawtooth Mountain Range, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0080.jpg", "../photos/featured/Photo-0080_large.jpg", "Sunset Bright", "Sawtooth Mountain Range, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0079.jpg", "../photos/featured/Photo-0079_large.jpg", "Make a Wish", "Sun Valley, Idaho | June, 2021", "Fine-Art Flower Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0078.jpg", "../photos/featured/Photo-0078_large.jpg", "Yellow Flower", "Sun Valley, Idaho | June, 2021", "Fine-Art Flower Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0091.jpg", "../photos/featured/Photo-0091_large.jpg", "Sun Valley", "Sun Valley, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0077.jpg", "../photos/featured/Photo-0077_large.jpg", "Tree in the Sun", "Sun Valley, Idaho | June, 2021", "Featured Fine-Art Landscape Nature Idaho", '2021-06'],
+    ["../photos/featured/Photo-0076.jpg", "../photos/featured/Photo-0076_large.jpg", "Shoshone Falls", "Twin Falls, Idaho | June, 2021", "Black-&-White Idaho", '2021-06'],
+    ["../photos/featured/Photo-0075.jpg", "../photos/featured/Photo-0075_large.jpg", "Shoshone Falls", "Twin Falls, Idaho | June, 2021", "Fine-Art Landscape Nature Idaho", '2021-06'],
     
     
     //Drew Cake Smash
-    ["../photos/featured/Photo-0074.jpg", "../photos/featured/Photo-0074_large.jpg", "I Smashed the Cake", "Drew's Cake Smash | Lake Murray, OK | May, 2021", "Featured Portrait FamilyKids",],
-    ["../photos/featured/Photo-0073.jpg", "../photos/featured/Photo-0073_large.jpg", "I got the One", "Drew's Cake Smash | Lake Murray, OK | May, 2021", "Portrait FamilyKids",],
+    ["../photos/featured/Photo-0074.jpg", "../photos/featured/Photo-0074_large.jpg", "I Smashed the Cake", "Drew's Cake Smash | Lake Murray, OK | May, 2021", "Featured Portrait FamilyKids", '2021-05'],
+    ["../photos/featured/Photo-0073.jpg", "../photos/featured/Photo-0073_large.jpg", "I got the One", "Drew's Cake Smash | Lake Murray, OK | May, 2021", "Portrait FamilyKids", '2021-05'],
     
     
     //Fairfield Baptist - 0221
-    ["../photos/featured/Photo-0070.jpg", "../photos/featured/Photo-0070_large.jpg", "Worship", "Fairfield Baptist Church | Cypress, TX | Feburary, 2021", "Featured Portrait",],
-    ["../photos/featured/Photo-0072.jpg", "../photos/featured/Photo-0072_large.jpg", "Worship", "Fairfield Baptist Church | Cypress, TX | Feburary, 2021", "Black-&-White",],
-    ["../photos/featured/Photo-0071.jpg", "../photos/featured/Photo-0071_large.jpg", "Worship", "Fairfield Baptist Church | Cypress, TX | Feburary, 2021", "Featured Portrait Black-&-White",],
+    ["../photos/featured/Photo-0070.jpg", "../photos/featured/Photo-0070_large.jpg", "Worship", "Fairfield Baptist Church | Cypress, TX | Feburary, 2021", "Featured Portrait", '2021-02'],
+    ["../photos/featured/Photo-0072.jpg", "../photos/featured/Photo-0072_large.jpg", "Worship", "Fairfield Baptist Church | Cypress, TX | Feburary, 2021", "Black-&-White", '2021-02'],
+    ["../photos/featured/Photo-0071.jpg", "../photos/featured/Photo-0071_large.jpg", "Worship", "Fairfield Baptist Church | Cypress, TX | Feburary, 2021", "Featured Portrait Black-&-White", '2021-02'],
     
     
     //Tyler Zoo - 0719
-    ["../photos/featured/Photo-0069.jpg", "../photos/featured/Photo-0069_large.jpg", "Ara ararauna", "Blue & Yellow Macaw Parrot | Tyler Zoo | July, 2019", "Featured Animals Fine-Art Nature",],
+    ["../photos/featured/Photo-0069.jpg", "../photos/featured/Photo-0069_large.jpg", "Ara ararauna", "Blue & Yellow Macaw Parrot | Tyler Zoo | July, 2019", "Featured Animals Fine-Art Nature", '2019-07'],
     
     
     //Josh Engagement
-    ["../photos/featured/Photo-0065.jpg", "../photos/featured/Photo-0065_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait",],
-    ["../photos/featured/Photo-0065-2.jpg", "../photos/featured/Photo-0065-2_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Black-&-White",],
-    ["../photos/featured/Photo-0066.jpg", "../photos/featured/Photo-0066_large.jpg", "Waterwall Proposal", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait",],
-    ["../photos/featured/Photo-0067.jpg", "../photos/featured/Photo-0067_large.jpg", "Waterwall Kiss", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait Black-&-White",],
-    ["../photos/featured/Photo-0068.jpg", "../photos/featured/Photo-0068_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait",],
-    ["../photos/featured/Photo-0068-2.jpg", "../photos/featured/Photo-0068-2_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Black-&-White",],
+    ["../photos/featured/Photo-0065.jpg", "../photos/featured/Photo-0065_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait", '2020-05'],
+    ["../photos/featured/Photo-0065-2.jpg", "../photos/featured/Photo-0065-2_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Black-&-White", '2020-05'],
+    ["../photos/featured/Photo-0066.jpg", "../photos/featured/Photo-0066_large.jpg", "Waterwall Proposal", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait", '2020-05'],
+    ["../photos/featured/Photo-0067.jpg", "../photos/featured/Photo-0067_large.jpg", "Waterwall Kiss", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait Black-&-White", '2020-05'],
+    ["../photos/featured/Photo-0068.jpg", "../photos/featured/Photo-0068_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Wedding Engagement Portrait", '2020-05'],
+    ["../photos/featured/Photo-0068-2.jpg", "../photos/featured/Photo-0068-2_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Black-&-White", '2020-05'],
     
     
     //Ale and AJ
-    ["../photos/featured/Photo-0054.jpg", "../photos/featured/Photo-0054_large.jpg", "The Kiss", "Alejandra & Adam - Houston, TX | October, 2019", "Wedding WeddingCeremony Portrait",],
-    ["../photos/featured/Photo-0056.jpg", "../photos/featured/Photo-0056_large.jpg", "The Rings", "Alejandra & Adam - Houston, TX | October, 2019", "Featured Wedding WeddingCeremony Black-&-White",],
-    ["../photos/featured/Photo-0055.jpg", "../photos/featured/Photo-0055_large.jpg", "Family", "Alejandra & Adam - Houston, TX | October, 2019", "Wedding WeddingCeremony Portrait",],
-    ["../photos/featured/Photo-0057.jpg", "../photos/featured/Photo-0057_large.jpg", "Girl Friends", "Alejandra & Adam - Houston, TX | October, 2019", "Wedding WeddingCeremony",],
+    ["../photos/featured/Photo-0054.jpg", "../photos/featured/Photo-0054_large.jpg", "The Kiss", "Alejandra & Adam - Houston, TX | October, 2019", "Wedding WeddingCeremony Portrait", '2019-10'],
+    ["../photos/featured/Photo-0056.jpg", "../photos/featured/Photo-0056_large.jpg", "The Rings", "Alejandra & Adam - Houston, TX | October, 2019", "Featured Wedding WeddingCeremony Black-&-White", '2019-10'],
+    ["../photos/featured/Photo-0055.jpg", "../photos/featured/Photo-0055_large.jpg", "Family", "Alejandra & Adam - Houston, TX | October, 2019", "Wedding WeddingCeremony Portrait", '2019-10'],
+    ["../photos/featured/Photo-0057.jpg", "../photos/featured/Photo-0057_large.jpg", "Girl Friends", "Alejandra & Adam - Houston, TX | October, 2019", "Wedding WeddingCeremony", '2019-10'],
     //["../photos/featured/Photo-0059.jpg", "../photos/featured/Photo-0059_large.jpg", "Alejandra & Adam", "Houston, TX | October, 2019", "Wedding WeddingCeremony Portrait",],
     //["../photos/featured/Photo-0058.jpg", "../photos/featured/Photo-0058_large.jpg", "Alejandra & Adam", "Houston, TX | October, 2019", "Wedding WeddingCeremony Portrait",],
     
     
-    ["../photos/featured/Photo-0061.jpg", "../photos/featured/Photo-0061_large.jpg", "Sunrise & Moon", "Houston, TX | September, 2019", "Fine-Art Nature Landscape",],
+    ["../photos/featured/Photo-0061.jpg", "../photos/featured/Photo-0061_large.jpg", "Sunrise & Moon", "Houston, TX | September, 2019", "Fine-Art Nature Landscape", '2019-09'],
 
     //Lake Murrary 2019
-    ["../photos/featured/Photo-0064.jpg", "../photos/featured/Photo-0064_large.jpg", "Violet Flower", "Lake Murray, OK | May, 2019", "Fine-Art Nature Flower",],
-    ["../photos/featured/Photo-0063.jpg", "../photos/featured/Photo-0063_large.jpg", "The Lone Flower", "Turner Falls, OK | May, 2019", "Fine-Art Nature",],
-    ["../photos/featured/Photo-0062_CLR.jpg", "../photos/featured/Photo-0062_CLR_large.jpg", "Turner Falls", "Turner Falls, OK | May, 2019", "Fine-Art Nature",],
-    ["../photos/featured/Photo-0062.jpg", "../photos/featured/Photo-0062_large.jpg", "Turner Falls", "Turner Falls, OK | May, 2019", "Black-&-White",],
+    ["../photos/featured/Photo-0064.jpg", "../photos/featured/Photo-0064_large.jpg", "Violet Flower", "Lake Murray, OK | May, 2019", "Fine-Art Nature Flower", '2019-05'],
+    ["../photos/featured/Photo-0063.jpg", "../photos/featured/Photo-0063_large.jpg", "The Lone Flower", "Turner Falls, OK | May, 2019", "Fine-Art Nature", '2019-05'],
+    ["../photos/featured/Photo-0062_CLR.jpg", "../photos/featured/Photo-0062_CLR_large.jpg", "Turner Falls", "Turner Falls, OK | May, 2019", "Fine-Art Nature", '2019-05'],
+    ["../photos/featured/Photo-0062.jpg", "../photos/featured/Photo-0062_large.jpg", "Turner Falls", "Turner Falls, OK | May, 2019", "Black-&-White", '2019-05'],
     
     
     //Comicpalooza 2019
-    ["../photos/featured/Photo-0060.jpg", "../photos/featured/Photo-0060_large.jpg", "Maui", "Ra1n cosplay at Comicpalooza - Houston, TX | May, 2019", "Cosplay Portrait",],       
+    ["../photos/featured/Photo-0060.jpg", "../photos/featured/Photo-0060_large.jpg", "Maui", "Ra1n cosplay at Comicpalooza - Houston, TX | May, 2019", "Cosplay Portrait", '2019-05'],       
     
     
     //Eddie and Shelby
-    ["../photos/featured/Photo-0053.jpg", "../photos/featured/Photo-0053_large.jpg", "The Ring", "Eddie & Shelby - Houston, TX | April, 2019", "Wedding Engagement",],           
-    ["../photos/featured/Photo-0052.jpg", "../photos/featured/Photo-0052_large.jpg", "Swingset", "Eddie & Shelby - Houston, TX | April, 2019", "Wedding Engagement Portrait",],
+    ["../photos/featured/Photo-0053.jpg", "../photos/featured/Photo-0053_large.jpg", "The Ring", "Eddie & Shelby - Houston, TX | April, 2019", "Wedding Engagement", '2019-04'],           
+    ["../photos/featured/Photo-0052.jpg", "../photos/featured/Photo-0052_large.jpg", "Swingset", "Eddie & Shelby - Houston, TX | April, 2019", "Wedding Engagement Portrait", '2019-04'],
     
     
-    ["../photos/featured/Photo-0050.jpg", "../photos/featured/Photo-0050_large.jpg", "Moon in Clouds", "Houston, TX | March, 2019", "Fine-Art Nature Black-&-White",],
+    ["../photos/featured/Photo-0050.jpg", "../photos/featured/Photo-0050_large.jpg", "Moon in Clouds", "Houston, TX | March, 2019", "Fine-Art Nature Black-&-White", '2019-03'],
     
     
     //Lopez Wedding
-    ["../photos/featured/Photo-0044.jpg", "../photos/featured/Photo-0044_large.jpg", "Under the Veil", "Lopez Wedding - Beaumont, TX | February, 2019", "Featured Portrait Wedding WeddingCeremony",],
-    ["../photos/featured/Photo-0043.jpg", "../photos/featured/Photo-0043_large.jpg", "K & A", "Lopez Wedding - Beaumont, TX | February, 2019", "Wedding WeddingCeremony",],
-    ["../photos/featured/Photo-0046.jpg", "../photos/featured/Photo-0046_large.jpg", "Sparkler Sendoff", "Lopez Wedding - Beaumont, TX | February, 2019", "Featured Wedding WeddingCeremony",],
-    ["../photos/featured/Photo-0045.jpg", "../photos/featured/Photo-0045_large.jpg", "The Groom", "Lopez Wedding - Beaumont, TX | February, 2019", "Portrait Wedding WeddingCeremony",],
+    ["../photos/featured/Photo-0044.jpg", "../photos/featured/Photo-0044_large.jpg", "Under the Veil", "Lopez Wedding - Beaumont, TX | February, 2019", "Featured Portrait Wedding WeddingCeremony", '2019-02'],
+    ["../photos/featured/Photo-0043.jpg", "../photos/featured/Photo-0043_large.jpg", "K & A", "Lopez Wedding - Beaumont, TX | February, 2019", "Wedding WeddingCeremony", '2019-02'],
+    ["../photos/featured/Photo-0046.jpg", "../photos/featured/Photo-0046_large.jpg", "Sparkler Sendoff", "Lopez Wedding - Beaumont, TX | February, 2019", "Featured Wedding WeddingCeremony", '2019-02'],
+    ["../photos/featured/Photo-0045.jpg", "../photos/featured/Photo-0045_large.jpg", "The Groom", "Lopez Wedding - Beaumont, TX | February, 2019", "Portrait Wedding WeddingCeremony", '2019-02'],
     
     
-    ["../photos/featured/Photo-0049.jpg", "../photos/featured/Photo-0049_large.jpg", "Through the Trees", "Hunt Retreat - Fulshear, TX | January, 2019", "Fine-Art Landscape",],
+    ["../photos/featured/Photo-0049.jpg", "../photos/featured/Photo-0049_large.jpg", "Through the Trees", "Hunt Retreat - Fulshear, TX | January, 2019", "Fine-Art Landscape", '2019-01'],
     
     
     //Houston Zoo
-    ["../photos/featured/Photo-0047.jpg", "../photos/featured/Photo-0047_large.jpg", "Elephant Parade", "Houston Zoo - Houston, TX | December, 2018", "Animals Nature",],
-    ["../photos/featured/Photo-0041.jpg", "../photos/featured/Photo-0041_large.jpg", "Sleeping Cheetah", "Houston Zoo - Houston, TX | December, 2018", "Featured Fine-Art Animals Nature",],
-    ["../photos/featured/Photo-0040.jpg", "../photos/featured/Photo-0040_large.jpg", "Jellyfish Dream", "Houston Zoo - Houston, TX | December, 2018", "Featured Fine-Art Animals Nature",],
-    ["../photos/featured/Photo-0042.jpg", "../photos/featured/Photo-0042_large.jpg", "Curious Meerkat", "Houston Zoo - Houston, TX | December, 2018", "Fine-Art Animals Nature",],
+    ["../photos/featured/Photo-0047.jpg", "../photos/featured/Photo-0047_large.jpg", "Elephant Parade", "Houston Zoo - Houston, TX | December, 2018", "Animals Nature", '2018-12'],
+    ["../photos/featured/Photo-0041.jpg", "../photos/featured/Photo-0041_large.jpg", "Sleeping Cheetah", "Houston Zoo - Houston, TX | December, 2018", "Featured Fine-Art Animals Nature", '2018-12'],
+    ["../photos/featured/Photo-0040.jpg", "../photos/featured/Photo-0040_large.jpg", "Jellyfish Dream", "Houston Zoo - Houston, TX | December, 2018", "Featured Fine-Art Animals Nature", '2018-12'],
+    ["../photos/featured/Photo-0042.jpg", "../photos/featured/Photo-0042_large.jpg", "Curious Meerkat", "Houston Zoo - Houston, TX | December, 2018", "Fine-Art Animals Nature", '2018-12'],
     
     
-    ["../photos/featured/Photo-0015.jpg", "../photos/featured/Photo-0015_large.jpg", "Yellow Light", "Houston Arboretum & Nature Center - Houston, TX | September, 2018", "Featured Fine-Art Flower Nature",],
+    ["../photos/featured/Photo-0015.jpg", "../photos/featured/Photo-0015_large.jpg", "Yellow Light", "Houston Arboretum & Nature Center - Houston, TX | September, 2018", "Featured Fine-Art Flower Nature", '2018-09'],
     
     
     //Houston 1:8
-    ["../photos/featured/Photo-0037.jpg", "../photos/featured/Photo-0037_large.jpg", "Houston 1:8", "Houston's First Baptsit - Faith Center Harwin - Houston, TX | July, 2018", "Portrait",],
-    ["../photos/featured/Photo-0038.jpg", "../photos/featured/Photo-0038_large.jpg", "Houston 1:8", "Houston's First Baptsit - Faith Center Harwin - Houston, TX | July, 2018", "Portrait",],
+    ["../photos/featured/Photo-0037.jpg", "../photos/featured/Photo-0037_large.jpg", "Houston 1:8", "Houston's First Baptsit - Faith Center Harwin - Houston, TX | July, 2018", "Portrait", '2018-07'],
+    ["../photos/featured/Photo-0038.jpg", "../photos/featured/Photo-0038_large.jpg", "Houston 1:8", "Houston's First Baptsit - Faith Center Harwin - Houston, TX | July, 2018", "Portrait", '2018-07'],
     
     
     //Washington - 0618
-    ["../photos/featured/Photo-0093.jpg", "../photos/featured/Photo-0093_large.jpg", "Hummingbird Feeding", "Seattle, WA | June, 2018", "Featured Fine-Art Animals Nature",],
-    ["../photos/featured/Photo-0001.jpg", "../photos/featured/Photo-0001_large.jpg", "Hummingbird", "Seattle, WA | June, 2018", "Featured Fine-Art Animals Nature",],
-    ["../photos/featured/Photo-0024.jpg", "../photos/featured/Photo-0024_large.jpg", "Sailor & Flag", "Pike Place Market - Seattle, WA | June, 2018", "Featured Portrait FineArt",],
-    ["../photos/featured/Photo-0004.jpg", "../photos/featured/Photo-0004_large.jpg", "Abstract Lights", "Chihuly Garden and Glass - Seattle, WA | June, 2018", "Featured FineArt",],
-    ["../photos/featured/Photo-0096.jpg", "../photos/featured/Photo-0096_large.jpg", "Roses", "Seattle, WA | June, 2018", "Flower Fine-Art Flowers Nature",],
-    ["../photos/featured/Photo-0092.jpg", "../photos/featured/Photo-0092_large.jpg", "Snoqualmie Falls", "Snoqualmie, WA | June, 2018", "Featured Fine-Art Nature Landscape",],
-    ["../photos/featured/Photo-0005.jpg", "../photos/featured/Photo-0005_large.jpg", "Mountain in Clouds", "Olympic National Park - Port Angeles, WA | June, 2018", "Fine-Art Nature Landscape",],
-    ["../photos/featured/Photo-0094.jpg", "../photos/featured/Photo-0094_large.jpg", "Mountain Landscape", "Seattle, WA | June, 2018", "Black-&-White Fine-Art Nature Landscape",],
-    ["../photos/featured/Photo-0097.jpg", "../photos/featured/Photo-0097_large.jpg", "Go for a Ride", "Seattle, WA | June, 2018", "Fine-Art Landscape",],
-    ["../photos/featured/Photo-0095.jpg", "../photos/featured/Photo-0095_large.jpg", "Hazy City", "Seattle, WA | June, 2018", "Fine-Art Landscape",],
-    ["../photos/featured/Photo-0014.jpg", "../photos/featured/Photo-0014_large.jpg", "Starfish", "Fort Flagler Historical State Park - Nordland, WA | June, 2018", "Featured Fine-Art Animals Nature",],
+    ["../photos/featured/Photo-0093.jpg", "../photos/featured/Photo-0093_large.jpg", "Hummingbird Feeding", "Seattle, WA | June, 2018", "Featured Fine-Art Animals Nature", '2018-06'],
+    ["../photos/featured/Photo-0001.jpg", "../photos/featured/Photo-0001_large.jpg", "Hummingbird", "Seattle, WA | June, 2018", "Featured Fine-Art Animals Nature", '2018-06'],
+    ["../photos/featured/Photo-0024.jpg", "../photos/featured/Photo-0024_large.jpg", "Sailor & Flag", "Pike Place Market - Seattle, WA | June, 2018", "Featured Portrait FineArt", '2018-06'],
+    ["../photos/featured/Photo-0004.jpg", "../photos/featured/Photo-0004_large.jpg", "Abstract Lights", "Chihuly Garden and Glass - Seattle, WA | June, 2018", "Featured FineArt", '2018-06'],
+    ["../photos/featured/Photo-0096.jpg", "../photos/featured/Photo-0096_large.jpg", "Roses", "Seattle, WA | June, 2018", "Flower Fine-Art Flowers Nature", '2018-06'],
+    ["../photos/featured/Photo-0092.jpg", "../photos/featured/Photo-0092_large.jpg", "Snoqualmie Falls", "Snoqualmie, WA | June, 2018", "Featured Fine-Art Nature Landscape", '2018-06'],
+    ["../photos/featured/Photo-0005.jpg", "../photos/featured/Photo-0005_large.jpg", "Mountain in Clouds", "Olympic National Park - Port Angeles, WA | June, 2018", "Fine-Art Nature Landscape", '2018-06'],
+    ["../photos/featured/Photo-0094.jpg", "../photos/featured/Photo-0094_large.jpg", "Mountain Landscape", "Seattle, WA | June, 2018", "Black-&-White Fine-Art Nature Landscape", '2018-06'],
+    ["../photos/featured/Photo-0097.jpg", "../photos/featured/Photo-0097_large.jpg", "Go for a Ride", "Seattle, WA | June, 2018", "Fine-Art Landscape", '2018-06'],
+    ["../photos/featured/Photo-0095.jpg", "../photos/featured/Photo-0095_large.jpg", "Hazy City", "Seattle, WA | June, 2018", "Fine-Art Landscape", '2018-06'],
+    ["../photos/featured/Photo-0014.jpg", "../photos/featured/Photo-0014_large.jpg", "Starfish", "Fort Flagler Historical State Park - Nordland, WA | June, 2018", "Featured Fine-Art Animals Nature", '2018-06'],
     
     
     //Comicpalooza 2018
-    ["../photos/featured/Photo-0031.jpg", "../photos/featured/Photo-0031_large.jpg", "Harley Quin", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay",],
-    ["../photos/featured/Photo-0033.jpg", "../photos/featured/Photo-0033_large.jpg", "Power Girl", "Comicpalooza - Houston, TX | May, 2018", "Cosplay",],
-    ["../photos/featured/Photo-0034.jpg", "../photos/featured/Photo-0034_large.jpg", "Grayson", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay",],
-    ["../photos/featured/Photo-0035.jpg", "../photos/featured/Photo-0035_large.jpg", "Star Wars", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay",],
-    ["../photos/featured/Photo-0036.jpg", "../photos/featured/Photo-0036_large.jpg", "Alice in Wonderland", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay",],
-    ["../photos/featured/Photo-0023.jpg", "../photos/featured/Photo-0023_large.jpg", "Tinkerbell", "Comicpalooza - Houston, TX | May, 2018", "Featured Portrait Cosplay",],
-    ["../photos/featured/Photo-0022.jpg", "../photos/featured/Photo-0022_large.jpg", "Star Trek", "Comicpalooza - Houston, TX | May, 2018", "Featured Portrait Cosplay",],
+    ["../photos/featured/Photo-0031.jpg", "../photos/featured/Photo-0031_large.jpg", "Harley Quin", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay", '2018-05'],
+    ["../photos/featured/Photo-0033.jpg", "../photos/featured/Photo-0033_large.jpg", "Power Girl", "Comicpalooza - Houston, TX | May, 2018", "Cosplay", '2018-05'],
+    ["../photos/featured/Photo-0034.jpg", "../photos/featured/Photo-0034_large.jpg", "Grayson", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay", '2018-05'],
+    ["../photos/featured/Photo-0035.jpg", "../photos/featured/Photo-0035_large.jpg", "Star Wars", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay", '2018-05'],
+    ["../photos/featured/Photo-0036.jpg", "../photos/featured/Photo-0036_large.jpg", "Alice in Wonderland", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay", '2018-05'],
+    ["../photos/featured/Photo-0023.jpg", "../photos/featured/Photo-0023_large.jpg", "Tinkerbell", "Comicpalooza - Houston, TX | May, 2018", "Featured Portrait Cosplay", '2018-05'],
+    ["../photos/featured/Photo-0022.jpg", "../photos/featured/Photo-0022_large.jpg", "Star Trek", "Comicpalooza - Houston, TX | May, 2018", "Featured Portrait Cosplay", '2018-05'],
     
     
-    ["../photos/featured/Photo-0021.jpg", "../photos/featured/Photo-0021_large.jpg", "Running Through Water", "Summit Retreat - Pineywoods Camp - Woodlake, TX | May, 2018", "Portrait",],
-    ["../photos/featured/Photo-0020.jpg", "../photos/featured/Photo-0020_large.jpg", "Rene & Rebekah", "Houston, TX | April, 2018", "Portrait Wedding Engagement",],
-    ["../photos/featured/Photo-0029.jpg", "../photos/featured/Photo-0029_large.jpg", "Rene & Rebekah", "Houston, TX | April, 2018", "Wedding Engagement",],
-    ["../photos/featured/Photo-0019.jpg", "../photos/featured/Photo-0019_large.jpg", "Lexi", "Houston, TX | March, 2018", "Portrait",],
-    ["../photos/featured/Photo-0018.jpg", "../photos/featured/Photo-0018_large.jpg", "Jonathan & Katelyn", "Houston, TX | February, 2018", "Portrait Wedding Engagement",],
+    ["../photos/featured/Photo-0021.jpg", "../photos/featured/Photo-0021_large.jpg", "Running Through Water", "Summit Retreat - Pineywoods Camp - Woodlake, TX | May, 2018", "Portrait", '2018-05'],
+    ["../photos/featured/Photo-0020.jpg", "../photos/featured/Photo-0020_large.jpg", "Rene & Rebekah", "Houston, TX | April, 2018", "Portrait Wedding Engagement", '2018-04'],
+    ["../photos/featured/Photo-0029.jpg", "../photos/featured/Photo-0029_large.jpg", "Rene & Rebekah", "Houston, TX | April, 2018", "Wedding Engagement", '2018-04'],
+    ["../photos/featured/Photo-0019.jpg", "../photos/featured/Photo-0019_large.jpg", "Lexi", "Houston, TX | March, 2018", "Portrait", '2018-04'],
+    ["../photos/featured/Photo-0018.jpg", "../photos/featured/Photo-0018_large.jpg", "Jonathan & Katelyn", "Houston, TX | February, 2018", "Portrait Wedding Engagement", '2018-02'],
     
     
     //Birmingham 2017
-    ["../photos/featured/Photo-0026.jpg", "../photos/featured/Photo-0026_large.jpg", "The Perfect Cast", "Birmingham, AL | December, 2017", "Portrait",],
-    ["../photos/featured/Photo-0027.jpg", "../photos/featured/Photo-0027_large.jpg", "I Caught a Fish", "Birmingham, AL | December, 2017", "Portrait Nature",],
-    ["../photos/featured/Photo-0028.jpg", "../photos/featured/Photo-0028_large.jpg", "Lauren", "Birmingham, AL | December, 2017", "Portrait",],
-    ["../photos/featured/Photo-0016.jpg", "../photos/featured/Photo-0016_large.jpg", "Muted Tones", "Birmingham, AL | December, 2017", "Fine-Art Flower Nature",],
-    ["../photos/featured/Photo-0017.jpg", "../photos/featured/Photo-0017_large.jpg", "Governor Mouton", "Birmingham, AL | December, 2017", "Flower",],
+    ["../photos/featured/Photo-0026.jpg", "../photos/featured/Photo-0026_large.jpg", "The Perfect Cast", "Birmingham, AL | December, 2017", "Portrait", '2017-12'],
+    ["../photos/featured/Photo-0027.jpg", "../photos/featured/Photo-0027_large.jpg", "I Caught a Fish", "Birmingham, AL | December, 2017", "Portrait Nature", '2017-12'],
+    ["../photos/featured/Photo-0028.jpg", "../photos/featured/Photo-0028_large.jpg", "Lauren", "Birmingham, AL | December, 2017", "Portrait", '2017-12'],
+    ["../photos/featured/Photo-0016.jpg", "../photos/featured/Photo-0016_large.jpg", "Muted Tones", "Birmingham, AL | December, 2017", "Fine-Art Flower Nature", '2017-12'],
+    ["../photos/featured/Photo-0017.jpg", "../photos/featured/Photo-0017_large.jpg", "Governor Mouton", "Birmingham, AL | December, 2017", "Flower", '2017-12'],
     
     
-    ["../photos/featured/Photo-0012.jpg", "../photos/featured/Photo-0012_large.jpg", "Red Flower", "Beaumont Botanical Gardens - Beaumont, TX | December, 2017", "Fine-Art Flower Nature",],
+    ["../photos/featured/Photo-0012.jpg", "../photos/featured/Photo-0012_large.jpg", "Red Flower", "Beaumont Botanical Gardens - Beaumont, TX | December, 2017", "Fine-Art Flower Nature", '2017-12'],
     
     //Hill Country Texas 2017
-    ["../photos/featured/Photo-0007.jpg", "../photos/featured/Photo-0007_large.jpg", "Emu", "Fossil Rim Wildlife Center - Glen Rose, TX | December, 2017", "Animals Nature",],
-    ["../photos/featured/Photo-0003.jpg", "../photos/featured/Photo-0003_large.jpg", "Zebra in Fall", "Fossil Rim Wildlife Center - Glen Rose, TX | December, 2017", "Featured Fine-Art Animals Nature",],
-    ["../photos/featured/Photo-0010.jpg", "../photos/featured/Photo-0010_large.jpg", "Black & White Caves", "Longhorn Cavern State Park - Burnet, TX | December, 2017", "Fine-Art Nature Black-&-White",],
-    ["../photos/featured/Photo-0002.jpg", "../photos/featured/Photo-0002_large.jpg", "Butterfly Rock", "Enchanted Rock - Texas | December, 2017", "Fine-Art Animals Nature",],
-    ["../photos/featured/Photo-0009.jpg", "../photos/featured/Photo-0009_large.jpg", "Enchanted", "Enchanted Rock - Texas | December, 2017", "Fine-Art Nature Landscape",],
+    ["../photos/featured/Photo-0007.jpg", "../photos/featured/Photo-0007_large.jpg", "Emu", "Fossil Rim Wildlife Center - Glen Rose, TX | December, 2017", "Animals Nature", '2017-12'],
+    ["../photos/featured/Photo-0003.jpg", "../photos/featured/Photo-0003_large.jpg", "Zebra in Fall", "Fossil Rim Wildlife Center - Glen Rose, TX | December, 2017", "Featured Fine-Art Animals Nature", '2017-12'],
+    ["../photos/featured/Photo-0010.jpg", "../photos/featured/Photo-0010_large.jpg", "Black & White Caves", "Longhorn Cavern State Park - Burnet, TX | December, 2017", "Fine-Art Nature Black-&-White", '2017-12'],
+    ["../photos/featured/Photo-0002.jpg", "../photos/featured/Photo-0002_large.jpg", "Butterfly Rock", "Enchanted Rock - Texas | December, 2017", "Fine-Art Animals Nature", '2017-12'],
+    ["../photos/featured/Photo-0009.jpg", "../photos/featured/Photo-0009_large.jpg", "Enchanted", "Enchanted Rock - Texas | December, 2017", "Fine-Art Nature Landscape", '2017-12'],
     
     
-    ["../photos/featured/Photo-0039.jpg", "../photos/featured/Photo-0039_large.jpg", "Golden", "New Orleans, LA | October, 2017", "Portrait",],
-    ["../photos/featured/Photo-0025.jpg", "../photos/featured/Photo-0025_large.jpg", "Prayer Trancends Language", "Houston's First Baptsit - Faith Center Harwin - Houston, TX | July, 2016", "Portrait Black-&-White",],
+    ["../photos/featured/Photo-0039.jpg", "../photos/featured/Photo-0039_large.jpg", "Golden", "New Orleans, LA | October, 2017", "Portrait", '2017-10'],
+    ["../photos/featured/Photo-0025.jpg", "../photos/featured/Photo-0025_large.jpg", "Prayer Trancends Language", "Houston's First Baptsit - Faith Center Harwin - Houston, TX | July, 2016", "Portrait Black-&-White", '2016-07'],
 
 ]
 

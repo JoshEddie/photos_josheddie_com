@@ -4,15 +4,20 @@ export default function Sort({children, sortBy, direction}) {
 
     const compare =(a, b) => {
 
-        if(sortBy === 'Random') {
+        if(sortBy[0] === 'Random') {
             return Math.floor(Math.random() * 3) - 1;
         }
 
-        if (a.props[sortBy] === b.props[sortBy]) {
+        if (a.props[sortBy[0]] === b.props[sortBy[0]]) {
             return 0;
         }
         else {
-            return (a.props[sortBy] < b.props[sortBy]) ? -1 : 1;
+            if(sortBy[1]) {
+                return (a.props[sortBy[0]] < b.props[sortBy[0]]) ? -1 : 1;
+            }
+            else {
+                return (a.props[sortBy[0]] < b.props[sortBy[0]]) ? 1 : -1;
+            }
         }
     }
 
