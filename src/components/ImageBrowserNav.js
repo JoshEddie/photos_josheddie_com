@@ -13,14 +13,14 @@ export default function ImageBrowserNav({sortImages}) {
     return (
         <>
         <Header />
-        <nav className="imageSort">
+        <nav className={showMore ? "imageFilter more" : "imageFilter"}>
 
             <Navigation hideShowMore={() => setShowMore(false)}/>
 
             <button className={showMore ? "photoNav active" : "photoNav"} onClick={() => setShowMore(!showMore)}>More</button>
-            {showMore && (<nav className="moreSort" onClick={() => setShowMore(!showMore)}>
+            {showMore && (<nav className="moreFilter" onClick={() => setShowMore(!showMore)}>
                 <Navigation />
-                <span class="photoNav featuredHeader">Featured Sets:</span>
+                <span class="featuredHeader">Featured Sets:</span>
                 <NavLink className='photoNav featuredSet' to="idaho">
                     Idaho
                 </NavLink>
