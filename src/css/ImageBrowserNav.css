@@ -20,7 +20,7 @@
 .imageSort {
     position: fixed;
     top: 67px;
-    z-index: 1002;
+    z-index: 1000;
     left: 9px;
     right: 9px;
     line-height: 0;
@@ -153,17 +153,33 @@
         right: auto;
     }
 
+    .filterButton {
+        display: none;
+    }
+
+    .sortMenu {
+        position: static;
+        transform: translate(0, 0);
+        margin: 0 auto;
+        display: block;
+        background-color: transparent;
+        padding: 0;
+        width: auto;
+    }
+
+    .sortButton {
+        display: inline-block;
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+
     .header {
         border-radius: 20px;
     }
 
 }
 
-@media screen and (min-width: 1400px) {
-
-    .filterButton {
-        display: none;
-    }
+/* @media screen and (min-width: 1400px) {
 
     .sortMenu {
         top: 15px;
@@ -180,7 +196,7 @@
         display: inline-block;
     }
     
-}
+} */
 
 @media screen and (min-width: 1700px) {
 
@@ -193,6 +209,23 @@
         left: 9px;
         background-color: transparent;
         transform: none;
+    }
+
+    .sortMenu {
+        position: fixed;
+        top: 28px;
+        right: 22px;
+        left: auto;
+        bottom: auto;
+        transform: none;
+        width: auto;
+        background-color: transparent;
+        display: block;
+    }
+
+    .sortButton {
+        display: inline-block;
+        font-size: 17px;
     }
 
 }

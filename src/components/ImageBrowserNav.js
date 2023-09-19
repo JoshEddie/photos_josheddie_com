@@ -33,9 +33,9 @@ export default function ImageBrowserNav({sortImages}) {
             </nav>
             )}
 
-        </nav>
+            <SortMenu sortImages={sortImages}/>
 
-        <SortMenu sortImages={sortImages}/>
+        </nav>
         </>
     )
 
