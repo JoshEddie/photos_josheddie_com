@@ -11,9 +11,9 @@ export default function Navigation({hideShowMore}) {
                     Shop
             </a> */}
             <NavLink 
-                className='photoNav nav1' to="featured"
+                className='photoNav nav1' to="all"
                 onClick={hideShowMore}>
-                    Top
+                    All
             </NavLink>
             <NavLink 
                 className='photoNav nav2' to="nature"

@@ -37,8 +37,8 @@ export default function Home() {
                     link = "/photos/Black-&-White"/>
                 <Featured 
                     image = "../photos/MorePhotos2022.jpg"
-                    title = "More Photos"
-                    link = "/photos/featured"/>
+                    title = "All Photos"
+                    link = "/photos/all"/>
             </section>
         </section>
         </>
