@@ -36,11 +36,19 @@
     background-color: var(--mainColorHex)
 }
 
+.featuredSets:hover .featuredContainer {
+    opacity: 0.5;
+}
+
 .featuredContainer {
     width: 45%;
     padding: 12px 5px 0 5px;
     display: inline-block;
     position: relative;
+}
+
+.featuredSets:hover .featuredContainer:hover {
+    opacity: 1;
 }
 
 .featuredContainer img {

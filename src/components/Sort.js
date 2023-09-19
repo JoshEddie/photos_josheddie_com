@@ -9,6 +9,14 @@ export default function Sort({children, sortBy, direction}) {
         }
 
         if (a.props[sortBy[0]] === b.props[sortBy[0]]) {
+
+            if(sortBy[1]) {
+                return (a.props['url'] < b.props['url']) ? -1 : 1;
+            }
+            else {
+                return (a.props['url'] < b.props['url']) ? 1 : -1;
+            }
+
             return 0;
         }
         else {
@@ -20,8 +28,6 @@ export default function Sort({children, sortBy, direction}) {
             }
         }
     }
-
-    window.document.body.scrollTop = document.documentElement.scrollTop = 0;
 
     return React.Children.toArray(children).sort(compare);
 

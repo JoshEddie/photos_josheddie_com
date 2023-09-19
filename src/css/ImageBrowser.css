@@ -10,7 +10,7 @@
 
 .photoDisplay {
     position: relative;
-    top: 115px;
+    top: 111px;
     left: 0;
     right: 0;
     padding: 0 10px 40px 10px;
@@ -25,30 +25,38 @@
     bottom: 15px;
     left: 50%;
     transform: translate(-50%, 0);
-    border-radius: 10px;
-    min-width: 190px;
+    border-radius: 0 0 20px 20px;
+    min-width: 210px;
+    width: 80%;
     font-size: 13px;
     line-height: 14px;
 	font-weight: 100;
-    padding: 5px 10px
+    padding: 5px 0;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
+
+    .photoDisplay {
+        top: 108px
+    }
 
     .copyright {
         left: auto;
         right: 9px;
         bottom: 7px;
         transform: none;
+        border-radius: 20px;
+        max-width: 190px;
     }
+    
 
 }
 
 @media screen and (min-width: 1700px) {
 
-    .photoDisplay {
+    /* .photoDisplay {
         top: 77px
-    }
+    } */
 
 }
 

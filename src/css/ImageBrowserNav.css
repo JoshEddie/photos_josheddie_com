@@ -1,14 +1,13 @@
 .header {
     position: fixed;
-    top: 7px;
+    top: 9px;
     left: 9px;
     right: 9px;
-    height: 80px;
     background-color: #1d74d5; /*Fallback Support*/
     background-color: var(--mainColorRGBA-Opacity95);
     z-index: 50;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 24px;
 }
  
 .header .logo {
@@ -18,24 +17,62 @@
     cursor: pointer;
 }
 
-.imageSort {
+.imageFilter {
     position: fixed;
-    top: 67px;
-    z-index: 1002;
+    z-index: 1000;
+    top: 69px;
     left: 9px;
     right: 9px;
     line-height: 0;
     padding: 0 22px 10px 22px;
     border-radius: 0 0 20px 20px;
+    background-color: #1d74d5; /*Fallback Support*/
+    background-color: var(--mainColorRGBA-Opacity95);
     white-space: nowrap;
+}
+
+.sortMenuButton {
+    position: fixed;
+    bottom: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    padding: 8px 15px 4px 15px;
+    min-width: 210px;
+    width: 80%;
+    border: none;
+    border-radius: 20px 20px 0 0;
+    background-color: #1d74d5; /*Fallback Variable Support*/
+    background-color: var(--mainColorRGBA-Opacity95);
+    z-index: 1000;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.sortMenuButton:hover,
+.sortMenuButton.active {
+    background-color: #ffffff;
+    color: #1d74d5; /*Fallback Support*/
+    color: var(--mainColorHex);
 }
 
 .sortMenu {
     position: fixed;
-    right: 24px;
-    top: 27px;
     z-index: 1000;
+    padding: 10px 0;
+    border-radius: 20px 20px 0 0;
+    bottom: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90%;
+    width: 80%;
+    min-width: 210px;
+    background-color: #ffffff;
     display: none;
+}
+
+.sortMenu.show {
+    display: block;
 }
 
 .photoNav {
@@ -51,101 +88,23 @@
 }
 
 .sortButton {
-    font-size: 13px;
-    padding: 0 6px;
+    font-size: 16px;
+    padding: 4px;
+    margin: 4px auto;
+    display: block;
 }
 
-.moreSort {
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.moreSort .photoNav {
+.moreFilter .photoNav {
     display: block;
     padding: 9px 8px 6px 8px;
 }
 
 .featuredHeader {
     color: #ffffff;
-    padding-bottom: 0;
-    padding-top: 15px;
+    padding: 15px 8px 0 8px;
+    font-size: 17px;
+    line-height: 17px;
     cursor: default;
-}
-
-.imageSort .nav4, .imageSort .nav5, .imageSort .nav6, .imageSort .nav7, .imageSort .nav8, 
-.imageSort .nav9, .imageSort .nav10, .imageSort .nav11, .imageSort .nav12, .imageSort .nav13, 
-.imageSort .nav14, .imageSort .nav15, .imageSort .nav16, .imageSort .navAll,
-.moreSort .nav1, .moreSort .nav2, .moreSort .nav3, 
-.imageSort .navFeatured, .imageSort .featuredHeader {
-    display: none;
-}
-
-.moreSort .nav4, .moreSort .nav5, .moreSort .nav6, .moreSort .nav7, .moreSort .nav8, 
-.moreSort .nav9, .moreSort .nav10, .moreSort .nav11, .moreSort .nav12, 
-.moreSort .nav13, .moreSort .nav14, .moreSort .nav15, .moreSort .nav16, .moreSort .navAll,
-.moreSort .navFeatured, .moreSort .featuredHeader {
-    display: block;
-}
-
-@media screen and (min-width: 900px) {.imageSort .nav4 {display: inline-block} .moreSort .nav4 {display: none;}}	
-@media screen and (min-width: 1000px) {.imageSort .nav5 {display: inline-block} .moreSort .nav5 {display: none;}}	
-@media screen and (min-width: 1100px) {.imageSort .nav6 {display: inline-block} .moreSort .nav6 {display: none;}}
-@media screen and (min-width: 1200px) {.imageSort .nav7 {display: inline-block} .moreSort .nav7 {display: none;}}
-@media screen and (min-width: 1250px) {.imageSort .nav8 {display: inline-block} .moreSort .nav8 {display: none;}}
-@media screen and (min-width: 1250px) {.imageSort .nav9 {display: inline-block} .moreSort .nav9 {display: none;}}
-
-@media screen and (min-width: 400px) {
-
-    .imageSort a.active {
-        display: inline-block;
-    }
-
-    .moreSort .photoNav.active {
-        display: none
-    }
-
-}
-
-@media screen and (min-width: 900px) {
-
-    .imageSort {
-        top: 73px;
-        right: auto;
-        background-color: transparent;
-    }
-
-    .sortMenu {
-        right: 24px;
-        top: 73px;
-        z-index: 1000;
-        display: block;
-    }
-
-    .header {
-        border-radius: 20px;
-    }
-
-}
-
-@media screen and (min-width: 1350px) {
-    .sortButton {
-    font-size: 15px;
-    padding: 0 8px;
-}
-}
-
-@media screen and (min-width: 1700px) {
-
-    .header {
-        height: auto;
-    }
-
-    .imageSort,
-    .sortMenu {
-        top: 28px;
-    }
-
 }
 
 .photoNav.active,
@@ -154,14 +113,128 @@
     border-bottom: 1px solid #ffffff;
 }
 
-.moreSort .photoNav.featuredSet {
-    display: block;
+.sortButton:hover,
+.sortButton.active {
+    color: var(--mainColorHex);
     border-bottom: none;
 }
 
-.sortButton:hover,
-.sortButton.active,
-.moreSort .photoNav:hover,
-.moreSort .photoNav.active {
+.imageFilter .nav4, .imageFilter .nav5, .imageFilter .nav6, .imageFilter .nav7, .imageFilter .nav8, 
+.imageFilter .nav9, .imageFilter .nav10, .imageFilter .nav11, .imageFilter .nav12, .imageFilter .nav13, 
+.imageFilter .nav14, .imageFilter .nav15, .imageFilter .nav16, .imageFilter .navAll,
+.moreFilter .nav1, .moreFilter .nav2, .moreFilter .nav3 {
+    display: none;
+}
+
+.moreFilter .nav4, .moreFilter .nav5, .moreFilter .nav6, .moreFilter .nav7, .moreFilter .nav8, 
+.moreFilter .nav9, .moreFilter .nav10, .moreFilter .nav11, .moreFilter .nav12, 
+.moreFilter .nav13, .moreFilter .nav14, .moreFilter .nav15, .moreFilter .nav16, .moreFilter .navAll,
+.moreFilter .navFeatured, .moreFilter .featuredHeader {
+    display: block;
+}
+
+@media screen and (min-width: 400px) {.imageFilter .nav4 {display: inline-block} .moreFilter .nav4 {display: none;}}	
+@media screen and (min-width: 525px) {.imageFilter .nav5 {display: inline-block} .moreFilter .nav5 {display: none;}}	
+@media screen and (min-width: 600px) {.imageFilter .nav6 {display: inline-block} .moreFilter .nav6 {display: none;}}
+@media screen and (min-width: 700px) {.imageFilter .nav7 {display: inline-block} .moreFilter .nav7 {display: none;}}
+@media screen and (min-width: 800px) {.imageFilter .nav8 {display: inline-block} .moreFilter .nav8 {display: none;}}
+@media screen and (min-width: 800px) {.imageFilter .nav9 {display: inline-block} .moreFilter .nav9 {display: none;}}
+
+@media screen and (min-width: 405px) {
+
+    .imageFilter a.active {
+        display: inline-block;
+    }
+
+    .moreFilter .photoNav.active {
+        display: none
+    }
+
+}
+
+@media screen and (min-width: 875px) {
+
+    .header {
+        border-radius: 20px;
+        text-align: left;
+        padding: 15px 24px;
+    }
+
+    .header .logo {
+        height: 60px;
+    }
+
+    .sortMenu {
+        padding: 15px 15px 0 15px;
+        border-radius: 20px;
+    }
+
+    .imageFilter {
+        top: 9px;
+        left: auto;
+        background-color: transparent;
+        padding-top: 18px;
+    }
+
+    .imageFilter.more {
+        background-color: #ffffff;
+        border-radius: 0 20px 20px 20px;
+    }
+
+    .sortMenuButton {
+        display: none;
+    }
+
+    .sortMenu {
+        position: static;
+        transform: translate(0, 0);
+        display: block;
+        padding: 0;
+        min-width: 98%;
+        padding: 4px 1%;
+        margin-top: 8px;
+    }
+
+    .sortButton {
+        display: inline-block;
+        padding: 0 8px;
+        margin: 0 auto;
+    }
+
+    .featuredHeader {
+        color: var(--mainColorHex);
+    }
+
+    .imageFilter.more .photoNav.active,
+    .imageFilter.more .photoNav:hover {
+        color: var(--mainColorHex);
+        border-bottom: 1px solid var(--mainColorHex);
+    }
+    
+    .moreFilter .photoNav.featuredSet:hover {
+        border-bottom: none;
+    }
+    
+    .imageFilter.more .photoNav.sortButton:hover,
+    .imageFilter.more .photoNav.sortButton.active {
+        border-bottom: none;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    .header {
+        text-align: center;
+    }
+
+}
+
+.moreFilter .photoNav.featuredSet {
+    display: block;
+}
+
+.moreFilter .photoNav:hover,
+.moreFilter .photoNav.active {
     border-bottom: none;
 }

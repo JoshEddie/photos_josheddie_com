@@ -32,13 +32,13 @@ export default function Home() {
                     title = "Cosplay"
                     link = "/photos/cosplay"/>
                 <Featured 
-                    image = "../photos/Landscape.jpg"
-                    title = "Fairfield Baptist"
-                    link = "/photos/landscape"/>
+                    image = "../photos/BlackandWhite.jpg"
+                    title = "Black & White"
+                    link = "/photos/Black-&-White"/>
                 <Featured 
                     image = "../photos/MorePhotos2022.jpg"
-                    title = "More Photos"
-                    link = "/photos/featured"/>
+                    title = "All Photos"
+                    link = "/photos/all"/>
             </section>
         </section>
         </>

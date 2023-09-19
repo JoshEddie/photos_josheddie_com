@@ -7,51 +7,45 @@ export default function SortMenu({sortImages}) {
 
     return (
         <>
-        {/* {showSort && (
-            <button className="sortMenu" onClick={() => setShowSort(!showSort)}>Sort by: {currentSort} ⌄</button>
-        )} */}
-        {/* {!showSort && ( */}
-            <>
-            <div className='sortMenu' onClick={() => setShowSort(!showSort)}>
-                <button
-                    className={currentSort[0] == 'Featured' ? "photoNav sortButton active" : "photoNav sortButton"}
-                    onClick={() => {
-                        sortImages(['index', true]);
-                        setCurrentSort(['Featured', true]);
-                    }}>Featured</button>
-                <button 
-                    className={currentSort[0] == 'Date' && !currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
-                    onClick={() => {
-                        sortImages(['date', false]);
-                        setCurrentSort(['Date', false]);
-                    }}>Date: New to Old</button>
-                <button 
-                    className={currentSort[0] == 'Date' && currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
-                    onClick={() => {
-                        sortImages(['date', true]);
-                        setCurrentSort(['Date', true]);
-                    }}>Date: Old to New</button>   
-                <button 
-                    className={currentSort[0] == 'Title' && currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
-                    onClick={() => {
-                        sortImages(['title', true]);
-                        setCurrentSort(['Title', true]);
-                    }}>Title: A to Z</button>
-                <button 
-                    className={currentSort[0] == 'Title' && !currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
-                    onClick={() => {
-                        sortImages(['title', false]);
-                        setCurrentSort(['Title', false]);
-                    }}>Title: Z to A</button>    
-                <button 
-                    className={currentSort[0] == 'Random' ? "photoNav sortButton active" : "photoNav sortButton"}
-                    onClick={() => {
-                        sortImages(['Random', true]);
-                        setCurrentSort(['Random', true]);
-                    }}>Random</button> 
-            </div>
-            </>
-        {/* )} */}
-      </>
+        <button className={showSort ? "sortMenuButton active" : "sortMenuButton"} onClick={() => setShowSort(!showSort)}>Sort By: {currentSort}</button>
+        <div className={showSort ? "sortMenu show" : "sortMenu"} onClick={() => setShowSort(!showSort)}>
+            <button
+                className={currentSort[0] == 'Featured' ? "photoNav sortButton active" : "photoNav sortButton"}
+                onClick={() => {
+                    sortImages(['index', true]);
+                    setCurrentSort(['Featured', true]);
+                }}>Featured</button>
+            <button 
+                className={currentSort[0] == 'Date - New to Old' && !currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
+                onClick={() => {
+                    sortImages(['date', false]);
+                    setCurrentSort(['Date - New to Old', false]);
+                }}>Date: New to Old</button>
+            <button 
+                className={currentSort[0] == 'Date - Old to New' && currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
+                onClick={() => {
+                    sortImages(['date', true]);
+                    setCurrentSort(['Date - Old to New', true]);
+                }}>Date: Old to New</button>   
+            <button 
+                className={currentSort[0] == 'Title - A to Z' && currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
+                onClick={() => {
+                    sortImages(['title', true]);
+                    setCurrentSort(['Title - A to Z', true]);
+                }}>Title: A to Z</button>
+            <button 
+                className={currentSort[0] == 'Title - Z to A' && !currentSort[1] ? "photoNav sortButton active" : "photoNav sortButton"}
+                onClick={() => {
+                    sortImages(['title', false]);
+                    setCurrentSort(['Title - Z to A', false]);
+                }}>Title: Z to A</button>    
+            <button 
+                className={currentSort[0] == 'Random' ? "photoNav sortButton active" : "photoNav sortButton"}
+                onClick={() => {
+                    sortImages(['Random', true]);
+                    setCurrentSort(['Random', true]);
+                }}>Random</button> 
+        </div>
+        </>
     )
 }
