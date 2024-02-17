@@ -8,7 +8,6 @@
     cursor: pointer;
     width: calc(96% - 16px);
     margin: 2%;
-    border: 8px solid #ffffff;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     border-radius: 15px;
