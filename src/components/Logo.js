@@ -5,5 +5,5 @@ export function SmallLogo() {
 }
 
 export default function Logo() {
-    return <img src="../logos/jeddiePhotography_logo-600px_2021.png" className="logo" />
+    return <img src="../logos/Jeddie_Logo_2023_1000px_photos.png" className="logo" />
 }

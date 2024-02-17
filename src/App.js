@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from './components/Home'
 import ImageBrowser from './components/ImageBrowser'
-import ImageBrowserNav from './components/ImageBrowserNav'
 import Photos from "./components/Photos";
 import {defaultList, comicpalooza2021List, idahoList, joshcolbyList} from './components/imageList';
 

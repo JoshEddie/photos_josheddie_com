@@ -4,10 +4,6 @@ export default function Sort({children, sortBy, direction}) {
 
     const compare =(a, b) => {
 
-        if(sortBy[0] === 'Random') {
-            return Math.floor(Math.random() * 3) - 1;
-        }
-
         if (a.props[sortBy[0]] === b.props[sortBy[0]]) {
 
             if(sortBy[1]) {
@@ -29,6 +25,9 @@ export default function Sort({children, sortBy, direction}) {
         }
     }
 
+    if(sortBy[0] == "Random") {
+        return React.Children.toArray(children).sort(() => Math.random() - 0.5);
+    }
     return React.Children.toArray(children).sort(compare);
 
 }

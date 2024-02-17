@@ -1,7 +1,6 @@
 import { Outlet, useOutletContext } from "react-router-dom";
 import React, { useState, useRef } from 'react';
 
-import ImageBrowser from './ImageBrowser'
 import ImageBrowserNav from './ImageBrowserNav'
 import Copyright from "./Copyright";
 import Sort from './Sort';

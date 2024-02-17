@@ -211,7 +211,8 @@
         border-bottom: 1px solid var(--mainColorHex);
     }
     
-    .moreFilter .photoNav.featuredSet:hover {
+    .moreFilter .photoNav.featuredSet:hover,
+    .moreFilter .photoNav.featuredSet.active {
         border-bottom: none;
     }
     
