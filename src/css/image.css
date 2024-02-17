@@ -1,16 +1,15 @@
 .photo {
     width: 100%;
     height: auto;
-    transition: 1.5s;
+    transition: 0.5s ease-in;
 }
 
 .photos:hover .photo {
+    border-radius: 75px;
     cursor: pointer;
-    width: calc(96% - 16px);
-    margin: 2%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    border-radius: 15px;
+    transition: 3s ease-out;
 }
 
 .imageOverlay {
