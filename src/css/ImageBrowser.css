@@ -10,6 +10,9 @@
 
 .photoDisplay {
     position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    gap: 10px;
     top: 111px;
     left: 0;
     right: 0;
@@ -49,14 +52,6 @@
         max-width: 190px;
     }
     
-
-}
-
-@media screen and (min-width: 1700px) {
-
-    /* .photoDisplay {
-        top: 77px
-    } */
 
 }
 

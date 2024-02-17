@@ -1,32 +1,16 @@
-.photos {
-    width: 98%;
-    max-width: 400px;
-    height: auto;
-    margin: 1%;
-    display: inline-block;
-    position: relative;
-}
-
-@media screen and (min-width: 320px) {.photos {width: 48%; width: calc(96% / 2);}}
-@media screen and (min-width: 460px) {.photos {width: 48.5%; width: calc(97% / 2); margin: .75%;}}
-@media screen and (min-width: 600px) {.photos {width: 32.33%; width: calc(97% / 3); margin: .5%;}}
-@media screen and (min-width: 1000px) {.photos {width: 24.2%; width: calc(96.8% / 4); margin: .4%;}}
-@media screen and (min-width: 1500px) {.photos {width: 19.4%; width: calc(97% / 5); margin: .3%;}}
-@media screen and (min-width: 2080px) {.photos {width: 16.2666667%; width: calc(97.6% / 6); margin: .2%;}}
-@media screen and (min-width: 2480px) {.photos {width: 13.8857143%; width: calc(97.2% / 7);}}
-@media screen and (min-width: 2880px) {.photos {width: 12.1%; width: calc(96.8% / 8);}}
-@media screen and (min-width: 3280px) {.photos {width: 10.7111111%; width: calc(96.4% / 9);}}
-@media screen and (min-width: 3680px) {.photos {width: 9.6%; width: calc(96% / 10);}}
-
-.photos:hover {
-    cursor: zoom-in;
-}
-
-.photos .photo {
+.photo {
     width: 100%;
+    height: auto;
+    transition: 0.5s ease-in;
 }
 
-
+.photos:hover .photo {
+    border-radius: 75px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 3s ease-out;
+}
 
 .imageOverlay {
     position: fixed;
