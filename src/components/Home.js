@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom';
 import '../css/Home.css';
-import Logo from './Logo';
 import Featured from './Featured';
+import Logo from './Logo';
 
 export default function Home() {
     return (
@@ -18,7 +17,8 @@ export default function Home() {
                 <Featured 
                     image = "../photos/Shop.jpg"
                     title = "Shop"
-                    link = ""/>
+                    link = "https://prints.josheddie.com/shop/"
+                    target = "_blank"/>
                 <Featured 
                     image = "../photos/Landscape.jpg"
                     title = "Landscape"
