@@ -1,8 +1,10 @@
 export var defaultList = [
     //"Thumbnail [0]","Large [1]", "Title [2]", "Details [3]", "Keywords [4]",],
     
+    ["../photos/featured/Photo-0142.jpg", "../photos/featured/Photo-0142_large.jpg", "Peaceful Falls", "Houston, TX | May, 2023", "Featured Nature Landscape", '2023-05'],
     ["../photos/featured/Photo-0120.jpg", "../photos/featured/Photo-0120_large.jpg", "Silhouette Tree Sunset", "Houston, TX | January, 2022", "Featured Nature Landscape", '2022-01'],
     ["../photos/featured/Photo-0090.jpg", "../photos/featured/Photo-0090_large.jpg", "Sawtooth Sunset", "Sawtooth Mountain Range, Idaho | June, 2021", "Featured Nature Landscape", '2021-06'],
+    ["../photos/featured/Photo-0139.jpg", "../photos/featured/Photo-0139_large.jpg", "Cool Kid", "Houston, TX | May, 2023", "Featured Portrait FamilyKids", '2023-05'],
     ["../photos/featured/Photo-0069.jpg", "../photos/featured/Photo-0069_large.jpg", "Ara ararauna", "Blue & Yellow Macaw Parrot | Tyler Zoo | July, 2019", "Featured Nature Animals", '2019-07'],
     ["../photos/featured/Photo-0137.jpg", "../photos/featured/Photo-0137_large.jpg", "Cade", "Cypress, TX | November, 2021", "Featured Portrait FamilyKids", '2021-11'],
     ["../photos/featured/Photo-0111.jpg", "../photos/featured/Photo-0111_large.jpg", "Gradient Sunrise", "Hockley, TX | July, 2021", "Featured Nature Landscape", '2021-07'],
@@ -17,6 +19,7 @@ export var defaultList = [
     ["../photos/featured/Photo-0108.jpg", "../photos/featured/Photo-0108_large.jpg", "Field", "Hockley, TX | July, 2021", "Featured Nature Landscape", '2021-07'],
     ["../photos/featured/Photo-0130.jpg", "../photos/featured/Photo-0130_large.jpg", "James Running", "Houston, TX | January, 2022", "Featured Portrait FamilyKids", '2022-01'],
     ["../photos/featured/Photo-0086.jpg", "../photos/featured/Photo-0086_large.jpg", "Redfish Lake", "Stanley, Idaho | June, 2021", "Featured Nature Landscape", '2021-06'],
+    ["../photos/featured/Photo-0141.jpg", "../photos/featured/Photo-0141_large.jpg", "You Can't Catch Me", "Houston, TX | May, 2023", "Featured Portrait FamilyKids", '2023-05'],
     ["../photos/featured/Photo-0003.jpg", "../photos/featured/Photo-0003_large.jpg", "Zebra in Fall", "Fossil Rim Wildlife Center - Glen Rose, TX | December, 2017", "Featured Nature Animals", '2017-12'],
     ["../photos/featured/Photo-0068.jpg", "../photos/featured/Photo-0068_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Featured Portrait Wedding", '2020-05'],
     ["../photos/featured/Photo-0068-2.jpg", "../photos/featured/Photo-0068-2_large.jpg", "Josh & Colby", "Joshua & Colby - Gerald D. Hines Waterwall | Houston, TX | May, 2020", "Black-&-White", '2020-05'],
@@ -118,6 +121,7 @@ export var defaultList = [
     ["../photos/featured/Photo-0034.jpg", "../photos/featured/Photo-0034_large.jpg", "Grayson", "Comicpalooza - Houston, TX | May, 2018", "Portrait Cosplay", '2018-05'],
     ["../photos/featured/Photo-0055.jpg", "../photos/featured/Photo-0055_large.jpg", "Family", "Alejandra & Adam - Houston, TX | October, 2019", "Wedding WeddingCeremony Portrait", '2019-10'],
     ["../photos/featured/Photo-0095.jpg", "../photos/featured/Photo-0095_large.jpg", "Hazy City", "Seattle, WA | June, 2018", "Landscape", '2018-06'],
+    ["../photos/featured/Photo-0140.jpg", "../photos/featured/Photo-0140_large.jpg", "I Got Sand!", "Houston, TX | May, 2023", "Portrait FamilyKids", '2023-05'],
     ["../photos/featured/Photo-0062_CLR.jpg", "../photos/featured/Photo-0062_CLR_large.jpg", "Turner Falls", "Turner Falls, OK | May, 2019", "Nature", '2019-05'],
     ["../photos/featured/Photo-0062.jpg", "../photos/featured/Photo-0062_large.jpg", "Turner Falls", "Turner Falls, OK | May, 2019", "Black-&-White Nature", '2019-05'],
     ["../photos/featured/Photo-0017.jpg", "../photos/featured/Photo-0017_large.jpg", "Governor Mouton", "Birmingham, AL | December, 2017", "Flower Nature", '2017-12'],
