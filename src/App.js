@@ -1,12 +1,12 @@
 // import React, { useState, useEffect } from 'react';
 // import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { VercelAnalytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from './components/Home'
-import ImageBrowser from './components/ImageBrowser'
+import Home from './components/Home';
+import ImageBrowser from './components/ImageBrowser';
 import Photos from "./components/Photos";
-import {defaultList, comicpalooza2021List, idahoList, joshcolbyList} from './components/imageList';
+import { comicpalooza2021List, defaultList, idahoList, joshcolbyList } from './components/imageList';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-    <VercelAnalytics />
+    <Analytics />
     </>
   );
 }
